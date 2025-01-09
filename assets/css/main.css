@@ -1,0 +1,17 @@
+/* settings style */
+@import url(./settings.css);
+/* style lenis */
+@import url(./lenis.css);
+/* style font*/
+@import url(./font.css);
+/* style composant and web design*/
+@import url(../css/composant/design_system.css);
+@import url(../css/composant/navC.css);
+/* style home page */
+@import url(./style.css);
+/* style works */
+@import url(./work.css);
+/* style About */
+@import url(./about.css);
+/* responsive style */
+@import url(./responsives.css);

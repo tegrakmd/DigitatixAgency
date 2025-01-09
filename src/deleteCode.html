@@ -1,0 +1,122 @@
+<nav>
+  <div class="nav_container">
+    <ul>
+      <li>
+        <a href="#">
+          <div class="bloc">
+            <p>Home</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="./src/about.html">
+          <div class="bloc">
+            <p>About</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="./src/work.html">
+          <div class="bloc">
+            <p>Project</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="./src/service.html">
+          <div class="bloc">
+            <p>Service</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="./src/contact.html">
+          <div class="bloc">
+            <p>Contact</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<style>
+  /* nav_section */
+  nav {
+    flex: none;
+    height: auto;
+    left: 50%;
+    position: fixed;
+    top: 15px;
+    transform: translate(-50%);
+    width: auto;
+    z-index: 10;
+  }
+  nav .nav_container {
+    backdrop-filter: blur(10px);
+    background-color: rgba(235, 235, 235, 0.7);
+    border-radius: 7px;
+    opacity: 1;
+    /*  */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 4px;
+    position: relative;
+    width: min-content;
+  }
+  .nav_container ul {
+    display: flex;
+    flex: none;
+    height: auto;
+    position: relative;
+    width: auto;
+  }
+  .nav_container ul li {
+    flex: none;
+    height: auto;
+    position: relative;
+    width: auto;
+    padding: 1.1rem;
+  }
+
+  .nav_container li a {
+    background-color: var(
+      --token-24005f99-5728-450d-b68d-947f2c96f4b8,
+      rgb(255, 255, 255)
+    );
+    border-radius: 6px;
+    opacity: 1;
+  }
+
+  .nav_container li a .bloc {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0.4rem; */
+    justify-content: flex-start;
+    flex-shrink: 0;
+    --extracted-r6o4lv: var(
+      --token-3740aad3-6a82-4611-8bc6-8ef519f263f9,
+      rgb(0, 0, 0)
+    );
+    --framer-link-text-color: rgb(0, 153, 255);
+    --framer-link-text-decoration: underline;
+    transform: none;
+    opacity: 1;
+  }
+  .nav_container .bloc p {
+    font-size: 14px;
+    font-weight: 500;
+    /* background-color: var(
+      --token-a2659e5a-0bdb-46f8-8c9b-c055e01877ac,
+      rgba(0, 0, 0, 0.5)
+    ); */
+    padding: 0.3rem;
+    text-transform: uppercase;
+  }
+</style>

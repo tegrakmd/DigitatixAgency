@@ -1,0 +1,65 @@
+/* contact_hero_section */
+@media (max-width: 768px) {
+  html {
+    font-size: calc(100vw / 768 * 10);
+  }
+
+  /* nav */
+
+  nav {
+    display: none;
+  }
+
+  .menu-container {
+    width: 100px;
+    display: flex;
+  }
+
+  .menu-container .col {
+    width: 100px;
+  }
+
+  .ewrapper,
+  .swrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service_container {
+    gap: 40px;
+  }
+
+  .service_list li a figure {
+    width: 4em;
+    height: 4em;
+  }
+
+  .name_service {
+    font-size: 16px;
+  }
+
+  .about_desc,
+  .service_desc {
+    padding: 0;
+  }
+
+  .service_left {
+    gap: 40px;
+  }
+
+  .service_list ul {
+    gap: 1.8rem;
+  }
+  /* .about_title h3 {
+    font-size: 8rem;
+  } */
+
+  .list_one_grid,
+  .list_two_grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  /* .list_one_grid {
+    gap: 40px;
+  } */
+}

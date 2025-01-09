@@ -1,0 +1,30 @@
+:root {
+  --orange_color: rgb(252, 182, 0);
+  --orange_color_hover: rgb(217, 155, 0);
+  --young_black: rgb(0, 0, 0, 0.5);
+}
+button {
+  padding: 8px 18px;
+  width: max-content;
+}
+button a {
+  font-size: 14px;
+}
+.button_primaire {
+  background-color: var(--orange_color, rgb(252, 182, 0));
+  border-radius: 8px;
+  opacity: 1;
+  width: fit-content;
+  border: none;
+  transition: 1s ease-in-out;
+}
+.button_primaire:hover {
+  background-color: var(--orange_color_hover);
+}
+.button_secondaire {
+  background-color: var(rgb(252, 182, 0));
+  border-radius: 8px;
+  opacity: 1;
+  width: fit-content;
+  border: none;
+}

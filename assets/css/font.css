@@ -1,0 +1,32 @@
+/* inter Display */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* 
+font poppins
+font Jetbrains
+font lemon
+font PP Mori
+font canopee
+font emerland
+font proto
+*/
+/* @font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-SemiBold.ttf) format("truetype");
+  src: url(../fonts/Poppins-Light.ttf) format("truetype");
+  src: url(../fonts/Poppins-Bold.ttf) format("truetype");
+} */
+@font-face {
+  font-family: "PP Mori";
+  src: url(../fonts/ppmori.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Neopixel";
+  src: url(../fonts/neopixel-regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "lemon";
+  src: url(../fonts/lemon-regular.otf) format("opentype");
+}
