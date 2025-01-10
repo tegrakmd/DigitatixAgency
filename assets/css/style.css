@@ -15,6 +15,7 @@
 }
 body {
   background-color: #fff;
+  overscroll-behavior: smooth;
 }
 p {
   font-size: 16px;
