@@ -84,6 +84,8 @@ nav .nav_container {
   overflow: hidden;
   z-index: 3;
   font-family: Proto;
+  font-family: "Roboto Mono";
+  text-transform: uppercase;
   display: none;
 }
 
@@ -110,7 +112,9 @@ nav .nav_container {
   text-align: justify;
 }
 .menu-container .col .menu-item a {
-  font-family: Proto;
+  /* font-family: Proto; */
+  font-family: "Roboto Mono";
+  text-transform: uppercase;
   font-size: 20px;
 }
 .menu-container .col-2 .menu-item {

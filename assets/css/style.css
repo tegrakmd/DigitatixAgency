@@ -313,7 +313,7 @@ img.img_bg {
 
 .name_service {
   text-align: start;
-  font-size: 1.5rem;
+  font-size: 18px;
   font-family: poppins;
   font-weight: 500;
   letter-spacing: -0.1rem;
@@ -409,15 +409,16 @@ img.img_bg {
 }
 
 .etiquete {
-  font-family: "Jetbrains Mono";
+  font-family: "Roboto Mono";
   position: absolute;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
+  backdrop-filter: blur(10px);
   left: 50%;
   top: 30px;
   transform: translate(-50%, -50%);
-  padding: 8px 16px;
-  font-size: 17px;
-  border-radius: 20px;
+  padding: 5px 12px;
+  border-radius: 100px;
   text-transform: uppercase;
 }
 
