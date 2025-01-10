@@ -1,8 +1,11 @@
-/* .project_title {
-  font-family: poppins;
-  font-weight: 600;
-  letter-spacing: -0.4rem;
-} */
+/* hero_section */
+.hero {
+  flex: none;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
 .nav_container ul li:nth-child(3) {
   background-color: var(--orange_color);
 }
