@@ -376,9 +376,11 @@ img.img_bg {
 .name_project {
   font-size: 18px;
   font-weight: 500;
+  font-family: PP Mori;
 }
 .year_project {
   color: var(--young_black);
+  font-family: PP Mori;
 }
 .item_grid_one_card a {
   display: flex;
