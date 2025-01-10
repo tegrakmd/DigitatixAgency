@@ -484,3 +484,7 @@ img.img_bg {
   align-items: center;
   gap: 10px;
 }
+
+.contact_wrapper p {
+  font-family: poppins;
+}
