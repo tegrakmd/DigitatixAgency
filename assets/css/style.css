@@ -376,9 +376,10 @@ img.img_bg {
   gap: 1.5rem;
 }
 .name_project {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 500;
   font-family: Inter;
+  line-height: 3rem;
 }
 .year_project {
   color: var(--young_black);
@@ -411,7 +412,7 @@ img.img_bg {
 .etiquete {
   font-family: "Roboto Mono";
   position: absolute;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   backdrop-filter: blur(10px);
   left: 50%;

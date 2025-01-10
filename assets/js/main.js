@@ -1,3 +1,37 @@
+const lenis = new Lenis();
+
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
+// GSAP and ScrollTrigger
+gsap.registerPlugin(ScrollTrigger);
+// Animation for hero title using GSAP TweenMax
+gsap.from(".hero_data_desc h1", {
+  duration: 1.5,
+  opacity: 0,
+  y: -50,
+  ease: "power3.out",
+  delay: 0.9,
+});
+// Example animation: Works,Projects
+gsap.utils
+  .toArray(".item_grid_one_card,.item_grid_two_card")
+  .forEach((item, index) => {
+    gsap.from(item, {
+      opacity: 0,
+      y: 50,
+      duration: 1,
+      scrollTrigger: {
+        trigger: item,
+        start: "top bottom-=100",
+        end: "top center",
+        scrub: true,
+      },
+    });
+  });
 // marquee
 let tween = gsap
   .to(".marquee_part", {

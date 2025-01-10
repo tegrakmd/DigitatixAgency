@@ -11,3 +11,30 @@
   font-size: 8vw;
   line-height: 1;
 }
+
+/* HOW WE WORK */
+.how_we_work {
+  height: 100%;
+  width: 100%;
+}
+
+.how_we_work_container {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 24px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 88px 15px 15px;
+  position: relative;
+}
+.how_we_work h3 {
+  font-family: Inter;
+  font-weight: 500;
+  letter-spacing: -0.4rem;
+}
