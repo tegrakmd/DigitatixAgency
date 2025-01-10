@@ -26,6 +26,7 @@ p {
 .hero {
   flex: none;
   height: 100dvh;
+  height: 100vh;
   position: relative;
   width: 100%;
 }
