@@ -154,7 +154,7 @@ img.img_bg {
 /* About_cover */
 .about_cover {
   flex: none;
-  height: 100dvh;
+  height: 100vh;
   position: relative;
   width: 100%;
 }
