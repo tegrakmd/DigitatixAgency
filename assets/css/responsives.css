@@ -22,6 +22,9 @@
   .about_container {
     padding: 30px 15px 30px;
   }
+  .etiquete {
+    top: 45px;
+  }
 
   .ewrapper,
   .swrapper {
@@ -54,17 +57,10 @@
   .service_list ul {
     gap: 1.8rem;
   }
-  /* .about_title h3 {
-    font-size: 8rem;
-  } */
 
   .list_one_grid,
   .list_two_grid {
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
   }
-
-  /* .list_one_grid {
-    gap: 40px;
-  } */
 }
