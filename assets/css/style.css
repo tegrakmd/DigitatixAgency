@@ -25,7 +25,7 @@ p {
 /* hero_section */
 .hero {
   flex: none;
-  height: 100vh;
+  height: 100dvh;
   position: relative;
   width: 100%;
 }
@@ -154,7 +154,7 @@ img.img_bg {
 /* About_cover */
 .about_cover {
   flex: none;
-  height: 100vh;
+  height: 100dvh;
   position: relative;
   width: 100%;
 }
