@@ -1,7 +1,7 @@
 :root {
   --orange_color: rgb(252, 182, 0);
   --orange_color_hover: rgb(217, 155, 0);
-  --young_black: rgb(0, 0, 0, 0.5);
+  --young_black: rgba(0, 0, 0, 0.689);
 }
 button {
   padding: 8px 18px;

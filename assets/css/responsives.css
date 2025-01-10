@@ -19,6 +19,10 @@
     width: 100px;
   }
 
+  .about_container {
+    padding: 30px 15px 30px;
+  }
+
   .ewrapper,
   .swrapper {
     grid-template-columns: repeat(1, 1fr);
@@ -26,6 +30,7 @@
 
   .service_container {
     gap: 40px;
+    padding-bottom: 10px;
   }
 
   .service_list li a figure {

@@ -129,7 +129,7 @@ img.img_bg {
 }
 
 .about_title h3 {
-  font-family: poppins;
+  font-family: Inter;
   font-weight: 600;
   letter-spacing: -0.4rem;
 }
@@ -244,7 +244,7 @@ img.img_bg {
 }
 
 .service_titles h3 {
-  font-family: poppins;
+  font-family: Inter;
   font-weight: 600;
   letter-spacing: -0.4rem;
 }
@@ -348,7 +348,7 @@ img.img_bg {
 }
 
 .project_title {
-  font-family: poppins;
+  font-family: Inter;
   font-weight: 600;
   letter-spacing: -0.4rem;
 }
@@ -367,7 +367,8 @@ img.img_bg {
 .data_figure_card {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.8rem;
+  padding-top: 12px;
 }
 .list_one_grid {
   display: grid;
@@ -376,12 +377,13 @@ img.img_bg {
 }
 .name_project {
   font-size: 18px;
-  font-weight: 500;
-  font-family: PP Mori;
+  font-weight: 600;
+  font-family: Inter;
 }
 .year_project {
   color: var(--young_black);
-  font-family: PP Mori;
+  font-family: Inter;
+  font-size: 17px;
 }
 .item_grid_one_card a {
   display: flex;
