@@ -1,18 +1,43 @@
 /* contact_hero_section */
+@media (max-width: 900px) {
+  html {
+    font-size: calc(100vw / 900 * 10);
+  }
+  /* services links */
+  .swrapper_link .service_list ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .form-1 {
+    width: 400px;
+  }
+  /* .form-1 .form_top {
+    flex-direction: column;
+  } */
+}
 @media (max-width: 768px) {
   html {
     font-size: calc(100vw / 768 * 10);
   }
-
   /* nav */
-
+  /* 
   nav {
     display: none;
+  } */
+  .form-1 {
+    display: none;
+  }
+
+  .form-2 {
+    display: flex;
+  }
+  .so_cont .swrapper {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .menu-container {
     width: 100px;
     display: flex;
+    display: none;
   }
 
   .menu-container .col {
@@ -42,7 +67,7 @@
   }
 
   .name_service {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .about_desc,
@@ -63,4 +88,7 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
   }
+  /* .form-1 .form_top {
+    flex-direction: column;
+  } */
 }

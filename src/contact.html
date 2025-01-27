@@ -7,39 +7,41 @@
     <link rel="stylesheet" href="../assets/css/main.css" />
   </head>
   <body>
+    <!-- nav -->
     <nav>
       <div class="nav_container">
         <ul>
           <li>
-            <a href="../index.html">
+            <a href="#">
               <div class="bloc">
                 <p>Home</p>
               </div>
             </a>
           </li>
           <li>
-            <a href="./about.html">
+            <a href="./src/about.html">
               <div class="bloc">
                 <p>About</p>
               </div>
             </a>
           </li>
           <li>
-            <a href="./work.html">
+            <a href="./src/work.html">
               <div class="bloc">
                 <p>Project</p>
               </div>
             </a>
           </li>
           <li>
-            <a href="./service.html">
+            <a href="./src/service.html">
               <div class="bloc">
                 <p>Service</p>
               </div>
             </a>
           </li>
+          <div class="line_nav"></div>
           <li>
-            <a href="#">
+            <a href="./src/contact.html">
               <div class="bloc">
                 <p>Contact</p>
               </div>
@@ -59,13 +61,114 @@
                 src="../assets/images/bg/about_bg.avif"
                 alt="" />
             </div>
+            <!--  -->
+            <div class="formulaire form-1">
+              <div class="formulaire_container wrapper">
+                <form action="">
+                  <div class="form_top">
+                    <input type="text" placeholder="First name*" />
+                    <input type="text" placeholder="Last name*" />
+                  </div>
+                  <input type="mail" placeholder="Email*" />
+                  <label for="">Witch service are you interested</label>
+                  <div>
+                    <input type="text" />
+                    <option value=""></option>
+                  </div>
+                  <label for="">Leave us a message</label>
+                  <input type="text" />
+                  <button type="submit" class="button_primaire f-btn">
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+
             <div class="hero_data_desc">
-              <span>Hey! I'm Tegrakmd.</span>
-              <h1>RFL-CTR</h1>
+              <h1>All your questions <br />can be answered here.</h1>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- section_Services -->
+
+      <section class="service s_cont">
+        <div class="service_container swrapper">
+          <div class="service_left">
+            <div class="service_titles">
+              <h3>Get in touch</h3>
+            </div>
+          </div>
+          <!-- <div class="formulaire "> -->
+          <!-- <div class="formulaire_container form-2">
+            <form action="">
+              <div class="form_top">
+                <input type="text" placeholder="First name*" />
+                <input type="text" placeholder="Last name*" />
+              </div>
+              <input type="mail" placeholder="Email*" />
+              <label for="">Witch service are you interested</label>
+              <div>
+                <input type="text" />
+                <option value=""></option>
+              </div>
+              <label for="">Leave us a message</label>
+              <input type="text" />
+              <button type="submit" class="button_primaire f-btn">
+                Submit
+              </button>
+            </form>
+          </div> -->
+          <!-- </div> -->
+          <div class="service_list get_in">
+            <ul>
+              <li class="cont_top">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+                  fugiat incidunt hic quod ipsam id eius, neque consectetur
+                  architecto, nisi molestias consequuntur. Ratione facere
+                  tempora adipisci illo magnam officiis excepturi!
+                </p>
+                <button class="button_primaire">Book a Call</button>
+              </li>
+              <li class="cont-grid">
+                <p>Email <em>digitatix@gmail.com</em></p>
+                <p>Phone <em>+243 976 760 113</em></p>
+                <p>Adress <em>Lushi trap +243</em></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- social -->
+      <section class="service so_cont">
+        <div class="service_container swrapper">
+          <div class="service_left">
+            <div class="service_titles">
+              <h3>Socials</h3>
+            </div>
+          </div>
+          <div class="service_list social_list">
+            <a href="#">
+              <span>X/Twitter</span>
+            </a>
+            <a href="#">
+              <span>Instagram</span>
+            </a>
+            <a href="#">
+              <span>Pinterest</span>
+            </a>
+            <a href="#">
+              <span>Threads</span>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
+    <!--  -->
+    <script src="../assets/js/plugins/lenis.min.js"></script>
+    <script src="../assets/js/main.js"></script>
   </body>
 </html>

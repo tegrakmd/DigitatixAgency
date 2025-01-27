@@ -13,5 +13,9 @@
 @import url(./work.css);
 /* style About */
 @import url(./about.css);
+/* style contact */
+@import url(./contact.css);
+/* style servicelink */
+@import url(./servicelink.css);
 /* responsive style */
 @import url(./responsives.css);

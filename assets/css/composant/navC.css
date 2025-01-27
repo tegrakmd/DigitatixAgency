@@ -1,5 +1,6 @@
 /*  */
 /* nav_section */
+
 nav {
   flex: none;
   height: auto;
@@ -13,6 +14,7 @@ nav {
   justify-content: center;
   z-index: 1000;
 }
+
 nav .nav_container {
   backdrop-filter: blur(10px);
   background-color: rgba(235, 235, 235, 0.7);
@@ -31,6 +33,7 @@ nav .nav_container {
   position: relative;
   width: min-content;
 }
+
 .nav_container ul {
   display: flex;
   /* flex: none; */
@@ -40,6 +43,7 @@ nav .nav_container {
   position: relative;
   width: auto;
 }
+
 .nav_container ul li {
   flex: none;
   height: auto;
@@ -48,12 +52,13 @@ nav .nav_container {
   padding: 1.1rem;
   border-radius: 6px;
 }
-.nav_container ul li:nth-child(1) {
+
+.nav_container ul .active {
   background-color: #fff;
 }
-.nav_container ul li:nth-child(5) {
+/* .nav_container ul li:nth-child(5) {
   background-color: #09dc76;
-}
+} */
 .line_nav {
   height: 30px;
   width: 1px;

@@ -6,6 +6,9 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+//
+
 // GSAP and ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
 // Animation for hero title using GSAP TweenMax
@@ -93,3 +96,17 @@ function revealMenuItems() {
     "<"
   ).reverse();
 }
+
+// let parallax, speed;
+
+// parallax = document.querySelectorAll(".parallax-image");
+
+// speed = 0.5;
+
+// window.onscroll = function () {
+//   return [].slice.call(parallax).forEach(function (el, i) {
+//     let dist;
+//     dist = $(window).scrollTop() - $(el).offset().top;
+//     return $(el).css("top", dist * speed + "px");
+//   });
+// };

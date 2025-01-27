@@ -1,0 +1,111 @@
+.servicelink_hero {
+  padding: 88px 15px 15px;
+}
+.servicelink_hero .pr-client {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.servicelink_hero .service_left {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.service_left_top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.servicelink_hero .pr-client span {
+  font-size: 20px;
+}
+
+.pr-client .btns {
+  display: flex;
+  gap: 12px;
+}
+
+.pr-client .btns button {
+  border-radius: 4px;
+}
+
+.servicelink_hero .service_list figure {
+  aspect-ratio: 3/2.3;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.servicelink_hero .figure {
+  aspect-ratio: 3/2.3;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+
+.servicelink_hero .figure img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service_list_link,
+.service_list_link ul {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.service_list_link li {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.service_list_link ul p {
+  color: gray;
+}
+
+.service_top {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service_top .service_titles {
+  padding: 18px 0 18px 0;
+}
+
+.service_container_link {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 24px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 100px 15px;
+  position: relative;
+}
+
+.swrapper_link {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.swrapper_link .service_list ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.service_container_link .data_service {
+  gap: 4px;
+}

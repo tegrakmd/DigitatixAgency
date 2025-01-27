@@ -6,9 +6,9 @@
   width: 100%;
 }
 
-.nav_container ul li:nth-child(3) {
+/* .nav_container ul li:nth-child(3) {
   background-color: var(--orange_color);
-}
+} */
 
 .marquee_work {
   height: 100%;

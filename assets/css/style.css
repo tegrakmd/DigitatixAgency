@@ -29,6 +29,7 @@ p {
   height: 100vh;
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .hero_container {
@@ -45,6 +46,7 @@ p {
   overflow: hidden;
   padding: 88px 15px 15px;
   position: relative;
+  will-change: transform;
 }
 
 .hero_data {
@@ -89,12 +91,14 @@ p {
   inset: 0px;
 }
 img.img_bg {
-  display: block;
   width: 100%;
   height: 100%;
   border-radius: inherit;
   object-position: center center;
   object-fit: cover;
+
+  /* height: 140%;
+  transform: translateY(var(--y)) */
 }
 
 /* About_section */
@@ -313,7 +317,7 @@ img.img_bg {
 
 .name_service {
   text-align: start;
-  font-size: 18px;
+  font-size: 20px;
   font-family: poppins;
   font-weight: 500;
   letter-spacing: -0.1rem;
@@ -323,6 +327,7 @@ img.img_bg {
 .data_service p {
   font-weight: 300;
   font-family: poppins;
+  line-height: 1;
 }
 
 /* WORKS SECTION */
@@ -349,7 +354,7 @@ img.img_bg {
 
 .project_title {
   font-family: Inter;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: -0.4rem;
 }
 
