@@ -19,14 +19,14 @@ body {
 p {
   font-size: 16px;
   font-weight: 300;
-  /* font-family: poppins; */
+  font-family: Poppins;
 }
 
 /* hero_section */
 .hero {
   flex: none;
-  height: 100dvh;
-  /* height: 100vh; */
+  /* height: 100dvh; */
+  height: 100vh;
   position: relative;
   width: 100%;
   overflow: hidden;
