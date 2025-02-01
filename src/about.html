@@ -7,55 +7,13 @@
     <link rel="stylesheet" href="../assets/css/main.css" />
   </head>
   <body>
+    
     <custom-cursor></custom-cursor>
-     <!-- nav -->
-     <!-- <nav>
-      <div class="nav_container">
-        <ul>
-          <li>
-            <a href="../index.html">
-              <div class="bloc">
-                <p>Home</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <div class="bloc">
-                <p>About</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="./work.html">
-              <div class="bloc">
-                <p>Project</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="./service.html">
-              <div class="bloc">
-                <p>Service</p>
-              </div>
-            </a>
-          </li>
-          <div class="line_nav"></div>
-          <li>
-            <a href="./contact.html">
-              <div class="bloc">
-                <p>Contact</p>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-     </nav> -->
-  
+    <div class="logo"><a href="#">{digitatix}</a></div>
     <main class="app">
-      <menu-nav base-path="."></menu-nav>
+ 
       <!-- nav -->
-      <menu-nav base-path="."></menu-nav>
+      <menu-nav base-path=".."></menu-nav>
       <!-- section_Hero -->
       <section class="hero">
         <div class="hero_container">
@@ -67,15 +25,16 @@
                 alt="" />
             </div>
             <div class="hero_data_desc">
-              <span>Hey! I'm Tegrakmd.</span>
-              <h1>ABOUT</h1>
+             
+              <h1>Constantly in rush.</h1>
+              <h1>Never slow down.</h1>
             </div>
           </div>
         </div>
       </section>
       <!-- section_About -->
       <section class="about">
-        <div class="about_container ewrapper">
+        <div class="about_container ewrapper about_section">
           <div class="about_title"><h3 style="font-size: 4rem">About Us</h3></div>
           <div class="about_desc">
             <p>
@@ -95,20 +54,83 @@
               connections with their target audiences.
               <div class="line"></div>
             </p>
+            <div class="expert">
+              <div class="expert_item">
+                <h1>10+</h1>
+                <span>year of experience</span>
+              </div>
+              <div class="line"></div>
+              <div class="expert_item">
+                <h1>13</h1>
+                <span>award received</span>
+              </div>
+              <div class="line"></div>
+              <div class="expert_item">
+                <h1>13+</h1>
+                <span>finishing projects</span>
+              </div>
+              <div class="line"></div>
+            </div>
           </div>
         </div>
       </section>
       <!-- How we Work Section -->
-       <section class="how_we_work">
+      <section class="how_we_work">
         <div class="how_we_work_container">
           <div class="line"></div>
           <div class="how_we_work"><h3 style="font-size: 4rem">How We Work</h3></div>
-        </div>
-       </section>
-       <!-- services -->
-      <section class="service">
+          <div class="list_two_grid how_we_work_grid">
+            <div class="item_grid_two_card ">
+                <figure>
+                  <img
+                    src="../assets/images/projects/hViQ2WKjFlDmJDH4iu68to0Nqk.avif"
+                    alt="" />
+                  <span class="etiquete button_primaire">1. CALL</span>
+                </figure>
+                <div class="data_figure_card how_we_work_detail">
+                  <h4 class="name_project">30-minutes strategy meeting</h4>
+                  <p class="year_project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ab itaque voluptates fuga repellat sint! Voluptatem asperiores ut sit illum deserunt expedita exercitationem</p>
+                </div>
+             
+            </div>
+            <div class="item_grid_two_card">
+           
+                <figure>
+                  <img
+                    src="../assets/images/projects/JXcXgX9XFX6giqsSzYIPYdR4oE.avif"
+                    alt="" />
+                  <span class="etiquete button_primaire">2. STRATEGY</span>
+                </figure>
+                <div class="data_figure_card how_we_work_detail">
+                  <h4 class="name_project">We create and publish quality content</h4>
+                  <p class="year_project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ab itaque voluptates fuga repellat sint! Voluptatem asperiores ut sit illum deserunt expedita exercitationem</p>
+                </div>
+            
+            </div>
+            <div class="item_grid_two_card">
         
-        <div class="service_container swrapper">
+                <figure>
+                  <img
+                    src="../assets/images/projects/MBKKc4QWep5qqnu92nmExW3Ge98.avif"
+                    alt="" />
+                  <span class="etiquete button_primaire">3. REPORTING</span>
+                </figure>
+                <!-- <h4 class="name_project">We regulary measure and report</h4> -->
+                <div class="data_figure_card how_we_work_detail">
+                  <h4 class="name_project">We regulary measure and report</h4>
+                  <p class="year_project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ab itaque voluptates fuga repellat sint! Voluptatem asperiores ut sit illum deserunt expedita exercitationem</p>
+                </div>
+       
+            </div>
+          </div>
+          <div class="line"></div>
+        </div>
+       
+      </section>
+      <!-- services -->
+      <section class="service">
+        <div class="service_container swrapper about_service">
+          
           
           <div class="service_left">
             
@@ -182,8 +204,8 @@
           </div>
         </div>
       </section>
-       <!-- about cover -->
-       <section class="about_cover">
+      <!-- about cover -->
+      <section class="about_cover">
         <div class="about_cover_container">
           <div class="about_cover_data">
             <div class="img_wrapper" id="img_wrapper">
@@ -211,9 +233,8 @@
               <a href="#">View all Projects</a>
             </button>
           </div>
-          <div class="work_grid">
-           
-            <div class="list_two_grid">
+          <div class="work_grid about_marquee">
+            <div class="list_two_grid marquee">
               <div class="item_grid_two_card">
                 <a href="">
                   <figure>
@@ -283,7 +304,8 @@
       <script src="../assets/js/plugins/lenis.min.js"></script>
       <script src="../assets/js/componant/nav.js"></script>
       <script src="../assets/js/main.js"></script>
+      <script src="../assets/js/cursor.js"></script>
     </main>
-    <script src="../assets/js/cursor.js"></script>
+  
   </body>
 </html>

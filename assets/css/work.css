@@ -1,16 +1,14 @@
-/* hero_section */
-.hero {
-  flex: none;
-  height: 100vh;
-  position: relative;
-  width: 100%;
+.how_we_work_detail h4 {
+  padding: 8px 12px;
+  background-color: rgba(235, 235, 235, 0.7);
+  border-radius: 8px;
 }
-
-/* .nav_container ul li:nth-child(3) {
-  background-color: var(--orange_color);
-} */
-
-.marquee_work {
+.how_we_work_detail p {
+  padding: 8px 12px;
+  font-family: poppins;
+  line-height: 1.5;
+}
+/* .marquee_work {
   height: 100%;
   width: 100%;
   opacity: 1;
@@ -62,4 +60,4 @@
   height: 20rem;
   position: relative;
   overflow: hidden;
-}
+} */

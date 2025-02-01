@@ -25,8 +25,7 @@ p {
 /* hero_section */
 .hero {
   flex: none;
-  /* height: 100dvh; */
-  height: 100vh;
+  height: 100dvh;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -332,6 +331,7 @@ img.img_bg {
 }
 
 /* WORKS SECTION */
+
 .project {
   height: 100%;
   width: 100%;
@@ -501,4 +501,5 @@ img.img_bg {
 
 .contact_wrapper p {
   font-family: poppins;
+  color: var(--young_black);
 }

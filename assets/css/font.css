@@ -39,5 +39,8 @@ font proto
   font-family: "lemon";
   src: url(../fonts/lemon-regular.otf) format("opentype");
 }
-/*  */
+
+/* 
+  font-family: "VCR OSD mono";
+*/
 /* JetBrains Mono */

@@ -10,31 +10,55 @@
   .form-1 {
     width: 400px;
   }
-  /* .form-1 .form_top {
+  .list_two_grid.how_we_work_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .expert {
     flex-direction: column;
-  } */
+    gap: 3rem;
+    align-items: flex-end;
+  }
+  .expert .line {
+    display: block;
+  }
 }
 @media (max-width: 768px) {
   html {
     font-size: calc(100vw / 768 * 10);
   }
-  .hero {
-    height: 100dvh;
+  /*  */
+  .logo {
+    left: 20px;
+    transform: translateX(0);
   }
+  .logo a {
+    font-size: 18px;
+  }
+
+  .menu-nav {
+    position: fixed;
+    top: 15px;
+    bottom: inherit;
+    right: 15px;
+    height: fit-content;
+    transform: translateX(0);
+  }
+  /*  */
   .menu-text {
     font-size: 12px;
   }
-  /* nav */
-  /* 
-  nav {
-    display: none;
-  } */
+
   .form-1 {
     display: none;
   }
-  .formulaire.form-2 {
+  .formulaire_container.form-2 {
     display: flex;
+    aspect-ratio: inherit;
   }
+  .formulaire {
+    padding: 10px 15px 15px 15px;
+  }
+
   .so_cont .swrapper {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -65,10 +89,26 @@
     gap: 40px;
     padding-bottom: 10px;
   }
+  .service_container {
+    padding: 10px 15px;
+  }
 
   .service_list li a figure {
     width: 4em;
     height: 4em;
+  }
+  .expert {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .expert_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .expert .line {
+    display: none;
   }
 
   .name_service {
@@ -91,13 +131,30 @@
   .list_one_grid,
   .list_two_grid {
     grid-template-columns: repeat(1, 1fr);
-    gap: 40px;
+    gap: 20px;
   }
-  /* .form-1 .form_top {
-    flex-direction: column;
-  } */
   .cont-grid p {
     gap: 0;
     justify-content: space-between;
+  }
+  .list_two_grid.how_we_work_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .how_we_work_grid {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 468px) {
+  .list_two_grid.how_we_work_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .how_we_work_grid {
+    margin-bottom: 0;
+  }
+  .expert {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
   }
 }

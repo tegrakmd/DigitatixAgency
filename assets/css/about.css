@@ -38,3 +38,29 @@
   font-weight: 500;
   letter-spacing: -0.4rem;
 }
+.how_we_work_grid {
+  margin-bottom: 100px;
+}
+.service_container.about_service {
+  padding: 40px 15px;
+}
+.expert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.expert h1 {
+  font-family: Poppins;
+  font-size: 8rem;
+}
+.expert span {
+  font-size: 12px;
+  color: var(--young_black);
+}
+.about_section {
+  padding: 10px 15px;
+}
+.expert .line {
+  display: none;
+}

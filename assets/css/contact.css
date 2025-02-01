@@ -1,3 +1,6 @@
+.service_container {
+  padding: 50px 15px;
+}
 .formulaire {
   height: 100%;
   position: relative;
@@ -14,7 +17,6 @@
   gap: 24px;
   justify-content: center;
   overflow: hidden;
-
   position: relative;
   overflow: hidden;
 }
