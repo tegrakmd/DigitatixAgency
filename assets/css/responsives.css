@@ -19,7 +19,7 @@
     font-size: calc(100vw / 768 * 10);
   }
   .hero {
-    height: 95vh;
+    height: 95dvh;
   }
   .menu-text {
     font-size: 12px;

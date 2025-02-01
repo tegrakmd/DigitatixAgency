@@ -1,12 +1,17 @@
 /*  */
 /* nav_section */
 .logo {
+  /* background: white; */
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   z-index: 10;
-  padding-top: 2rem;
-  top: 20px;
-  left: 20px;
-
+  margin-top: 0;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
   mix-blend-mode: difference;
   font-weight: 800;
 }
