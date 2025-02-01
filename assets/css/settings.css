@@ -252,7 +252,6 @@ html {
   scroll-behavior: initial;
   font-size: calc(100vw / 1920 * 10);
   min-width: 280px;
-  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {

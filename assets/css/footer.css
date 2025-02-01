@@ -1,0 +1,12 @@
+footer {
+  height: 100dvh;
+  width: 100vw;
+  overflow: hidden;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  /* padding: 3em 0; */
+  background: url(../images/projects/meFW4ACDv3tnJ9teqWpAmeU2XA.webp) no-repeat
+    center center/cover;
+}
