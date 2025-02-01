@@ -29,6 +29,7 @@ nav {
 }
 
 nav .nav_container {
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background-color: rgba(235, 235, 235, 0.7);
   border-radius: 7px;
@@ -122,6 +123,7 @@ nav .nav_container {
 .menu-container .col .menu-item {
   mix-blend-mode: difference;
   color: #111;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(20px);
   background-color: rgba(235, 235, 235, 0.764);
   margin: 0.1em;
@@ -147,6 +149,7 @@ nav .nav_container {
   bottom: 25px;
   right: 50%;
   transform: translateX(50%);
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   display: flex;
   align-items: center;

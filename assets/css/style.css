@@ -203,6 +203,7 @@ img.img_bg {
   display: flex;
 }
 .about_cover_data_desc button {
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background-color: rgba(235, 235, 235, 0.7);
   z-index: 3;
@@ -419,6 +420,7 @@ img.img_bg {
   position: absolute;
   font-size: 14px;
   font-weight: 400;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   left: 50%;
   top: 30px;
