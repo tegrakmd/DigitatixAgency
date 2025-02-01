@@ -1,0 +1,27 @@
+/*====  Cursor === */
+html {
+  cursor: none;
+}
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background: white;
+  mix-blend-mode: difference;
+}
+
+.cursor-cercle {
+  width: 30px;
+  height: 30px;
+  border: solid 2px hsl(0, 0%, 100%, 0.5);
+}
+.cursor-cercle,
+.cursor-dot {
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}

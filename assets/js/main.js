@@ -97,6 +97,8 @@ function revealMenuItems() {
   ).reverse();
 }
 
+// cursor
+
 // let parallax, speed;
 
 // parallax = document.querySelectorAll(".parallax-image");

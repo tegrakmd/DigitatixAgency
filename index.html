@@ -10,6 +10,10 @@
     <!-- ion icon link-->
   </head>
   <body>
+    <!--  -->
+    <!-- curseur -->
+    <custom-cursor></custom-cursor>
+    <!--  -->
     <div class="menu-container">
       <div class="col col-1">
         <div class="menu-item" id="menu-toggle">menu</div>
@@ -23,8 +27,12 @@
         <div class="menu-item"><a href="./src/contact.html">Contact</a></div>
       </div>
     </div>
+    <!--  -->
+
+    <!--  -->
+    <div class="logo"><a href="#">Digitatix</a></div>
     <!-- nav -->
-    <nav>
+    <!-- <nav>
       <div class="nav_container">
         <ul>
           <li class="active">
@@ -65,9 +73,18 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
 
     <main class="app">
+      <!-- <a href="#" class="menu-nav">
+        <div class="menu-icon">
+          <img
+            src="./assets/images/icons/649a4235ad17df3e125294bd_%2B.svg"
+            alt="" />
+        </div>
+        <div class="menu-text">Menu</div>
+      </a> -->
+      <menu-nav base-path="."></menu-nav>
       <!-- section_Hero -->
 
       <section class="hero">
@@ -378,6 +395,8 @@
 
     <!-- javascripts links -->
     <!-- <script src="./assets/js/smoothscroll.js"></script> -->
+    <script src="./assets/js/componant/nav.js  "></script>
+    <script src="./assets/js/cursor.js  "></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>

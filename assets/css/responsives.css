@@ -18,6 +18,12 @@
   html {
     font-size: calc(100vw / 768 * 10);
   }
+  .hero {
+    height: 90vh;
+  }
+  .menu-text {
+    font-size: 1.5rem;
+  }
   /* nav */
   /* 
   nav {

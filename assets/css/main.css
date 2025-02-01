@@ -6,6 +6,9 @@
 @import url(./lenis.css);
 /* style composant and web design*/
 @import url(../css/composant/design_system.css);
+/* cursor */
+@import url(../css/composant/cursor.css);
+/* navbar */
 @import url(../css/composant/navC.css);
 /* style home page */
 @import url(./style.css);
