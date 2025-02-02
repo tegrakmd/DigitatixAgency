@@ -157,4 +157,7 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
+  .logo a {
+    font-size: 25px;
+  }
 }

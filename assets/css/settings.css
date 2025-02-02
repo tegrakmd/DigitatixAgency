@@ -154,6 +154,7 @@ main.app {
 
   margin: 0 auto;
   max-width: 192rem;
+  z-index: 2;
 }
 
 /* Style text */

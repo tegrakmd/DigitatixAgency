@@ -5,8 +5,103 @@ footer {
   position: sticky;
   bottom: 0;
   left: 0;
-  z-index: -1;
-  /* padding: 3em 0; */
-  background: url(../images/projects/meFW4ACDv3tnJ9teqWpAmeU2XA.webp) no-repeat
-    center center/cover;
+  z-index: 1;
+  background-color: #111;
+  color: #e0e0e0;
+}
+
+.footer > h1 a {
+  position: absolute;
+  left: 50%;
+  bottom: -20%;
+  transform: translate(-50%);
+  /* font-family: "Scania Sans CY Headline"; */
+  font-family: lemon;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 25.5vw;
+  mix-blend-mode: difference;
+  line-height: 1.1;
+  color: #fff;
+  display: block;
+  letter-spacing: 12px;
+
+  /* text-transform: uppercase; */
+}
+.footer_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  height: 65%;
+}
+.header_link_footer_logo {
+  font-family: Emerland;
+}
+.footer_container_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+/* .digitatix_foot {
+  text-transform: uppercase;
+} */
+.footer_container_item_right_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  grid-column: 2;
+  grid-row: 2;
+  gap: 2rem;
+  padding: 1rem;
+  height: 100%;
+}
+
+.footer_container_item_left_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 1rem;
+}
+.link_footer_about_desc {
+  max-width: 340px;
+  text-align: justify;
+}
+
+.footer_container_item_right_container li {
+  font-size: 2rem;
+}
+li.header_link_footer {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+li a.link_footer {
+  font-size: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  color: #e0e0e0;
+}
+a.link_footer svg {
+  width: 2.2rem;
+  height: 2.2rem;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: calc(100vw / 768 * 10);
+  }
+  /* .footer_container_item_right_container {
+    grid-template-columns: repeat(1, 1fr);
+  } */
+  a.link_footer {
+    font-size: 140px;
+  }
 }

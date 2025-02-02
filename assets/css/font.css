@@ -32,6 +32,10 @@ font proto
   src: url(../fonts/ppmori.ttf) format("truetype");
 }
 @font-face {
+  font-family: "Emerland";
+  src: url(../fonts/Emerland.ttf) format("truetype");
+}
+@font-face {
   font-family: "Neopixel";
   src: url(../fonts/neopixel-regular.otf) format("opentype");
 }

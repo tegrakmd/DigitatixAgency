@@ -13,12 +13,11 @@
   left: 50%;
   transform: translateX(-50%);
   mix-blend-mode: difference;
-  font-weight: 800;
 }
 .logo a {
   color: #e0e0e0;
-  font-family: "emerland";
   letter-spacing: 2px;
+  font-family: Emerland;
 }
 
 .menu-nav {
