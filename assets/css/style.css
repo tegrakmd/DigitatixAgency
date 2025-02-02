@@ -22,7 +22,9 @@ p {
   font-weight: 300;
   font-family: Poppins;
 }
-
+figure img {
+  will-change: auto;
+}
 /* hero_section */
 .hero {
   flex: none;

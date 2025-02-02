@@ -97,4 +97,8 @@ a.link_footer svg {
   a.link_footer {
     font-size: 140px;
   }
+  .footer_container_item_right_container {
+    display: grid;
+    grid-template-columns: repeat((2, 1fr));
+  }
 }
