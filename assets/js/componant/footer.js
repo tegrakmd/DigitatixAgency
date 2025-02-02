@@ -59,11 +59,7 @@ class FooterComponent extends HTMLElement {
                 </ul>
                 
                 <!-- Contact -->
-                <ul>
-                  <li class="header_link_footer">Contact</li>
-                  <li><a href="#" class="link_footer">www.digitatix.io</a></li>
-                  <li><a href="#" class="link_footer">digitatix@gmail.io</a></li>
-                </ul>
+           
                 
                 <!-- Studio -->
                 <ul>

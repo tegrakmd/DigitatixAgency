@@ -10,25 +10,50 @@ requestAnimationFrame(raf);
 
 // GSAP parallax effect
 // Appliquer l'effet de parallaxe à l'image de fond de la section hero
-const heroImage = document.querySelector(".parallax-image");
+// Sélectionne tous les éléments avec la classe "parallax-image"
+const parallaxImages = document.querySelectorAll(".parallax-image");
 
-gsap.fromTo(
-  heroImage,
-  {
-    yPercent: -30, // Déplace l'image de 20% vers le haut au départ
-  },
-  {
-    yPercent: 30, // Déplace l'image de 20% vers le bas à la fin
-    ease: "none",
-    scrollTrigger: {
-      trigger: heroImage.closest(".hero"), // Déclenche l'animation sur la section hero
-      start: "top bottom", // Déclenche l'animation lorsque le haut de l'élément atteint le bas de la fenêtre
-      end: "bottom top", // Termine l'animation lorsque le bas de l'élément atteint le haut de la fenêtre
+parallaxImages.forEach((image) => {
+  // Récupère le conteneur parent qui possède la classe "pParent"
+  const parent = image.closest(".pParent");
 
-      scrub: true, // Rend l'animation fluide avec le défilement
+  gsap.fromTo(
+    image,
+    {
+      yPercent: -30, // L'image commence décalée de -30%
     },
-  }
-);
+    {
+      yPercent: 30, // L'image finit décalée de +30%
+      ease: "none",
+      scrollTrigger: {
+        trigger: parent, // L'animation se déclenche lorsque le parent entre dans le viewport
+        start: "top bottom", // Quand le haut du parent atteint le bas de la fenêtre
+        end: "bottom top", // Quand le bas du parent atteint le haut de la fenêtre
+        scrub: true, // Synchronise l'animation avec le défilement
+      },
+    }
+  );
+});
+
+// const parallaxImage = document.querySelector(".parallax-image");
+// const parallaxParent = document.querySelector(".pParent");
+
+// gsap.fromTo(
+//   parallaxImage,
+//   {
+//     yPercent: -30, // Déplace l'image de 20% vers le haut au départ
+//   },
+//   {
+//     yPercent: 30, // Déplace l'image de 20% vers le bas à la fin
+//     ease: "none",
+//     scrollTrigger: {
+//       trigger: heroImage.closest(".pParent"), // Déclenche l'animation sur la section hero
+//       start: "top bottom", // Déclenche l'animation lorsque le haut de l'élément atteint le bas de la fenêtre
+//       end: "bottom top", // Termine l'animation lorsque le bas de l'élément atteint le haut de la fenêtre
+//       scrub: true, // Rend l'animation fluide avec le défilement
+//     },
+//   }
+// );
 
 // FOOTER
 gsap.set("section.footer-container", { yPercent: -50 });
