@@ -16,7 +16,7 @@ class FooterComponent extends HTMLElement {
                 <ul>
                   <li class="header_link_footer">Links</li>
                   <li>
-                    <a href="#" class="link_footer">
+                    <a href="${basePath}" class="link_footer">
                       Home
                       <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <!-- Exemple de SVG (remplacez le contenu par le vôtre) -->
