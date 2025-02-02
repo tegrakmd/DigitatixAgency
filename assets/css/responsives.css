@@ -37,7 +37,6 @@
     position: absolute;
     left: 50%;
     bottom: -4%;
-    font-size: 18.5vw;
   }
   /*  */
   .logo {
@@ -163,9 +162,6 @@
 }
 
 @media (max-width: 468px) {
-  .footer > h1 a {
-    bottom: -2%;
-  }
   .list_two_grid.how_we_work_grid {
     grid-template-columns: repeat(1, 1fr);
   }

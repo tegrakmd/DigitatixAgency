@@ -18,7 +18,7 @@ footer {
   /* font-family: lemon; */
   font-weight: bold;
   font-style: normal;
-  font-size: 25.5vw;
+  font-size: 25vw;
   mix-blend-mode: difference;
   line-height: 1.1;
   color: #fff;
@@ -33,7 +33,7 @@ footer {
   top: 5%;
   left: 0;
   width: 100%;
-  padding: 1rem;
+  padding: 10px;
   height: 65%;
 }
 .header_link_footer_logo {
