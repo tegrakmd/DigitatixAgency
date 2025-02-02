@@ -159,6 +159,14 @@
   .how_we_work_grid {
     margin-bottom: 88px;
   }
+  .footer_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
 }
 
 @media (max-width: 468px) {
