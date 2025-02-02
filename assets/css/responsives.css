@@ -176,4 +176,10 @@
   .logo a {
     font-size: 25px;
   }
+  .footer_container_item_right_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer_container_item_right_container > a {
+    font-size: 10px;
+  }
 }
