@@ -34,6 +34,10 @@
   .logo a {
     font-size: 18px;
   }
+  .cursor-cercle,
+  .cursor-dot {
+    display: none;
+  }
 
   .menu-nav {
     position: fixed;
