@@ -164,7 +164,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     position: absolute;
-    top: 20%;
+    top: 18%;
     left: 0;
   }
 }
