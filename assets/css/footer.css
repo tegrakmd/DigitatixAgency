@@ -81,7 +81,7 @@ li a.link_footer {
   gap: 1rem;
   align-items: center;
   color: #e0e0e0;
-  padding-top: 1rem;
+  padding-top: 10px;
 }
 a.link_footer svg {
   width: 2.2rem;

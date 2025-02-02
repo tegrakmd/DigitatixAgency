@@ -167,6 +167,9 @@
     top: 18%;
     left: 0;
   }
+  li a.link_footer {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 468px) {
