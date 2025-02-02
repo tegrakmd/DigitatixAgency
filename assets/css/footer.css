@@ -15,7 +15,7 @@ footer {
   left: 50%;
   bottom: -20%;
   transform: translate(-50%);
-  font-family: lemon;
+  /* font-family: lemon; */
   font-weight: bold;
   font-style: normal;
   font-size: 25.5vw;
@@ -23,7 +23,7 @@ footer {
   line-height: 1.1;
   color: #fff;
   display: block;
-  letter-spacing: 12px;
+  /* letter-spacing: 12px; */
 }
 .footer_container {
   display: grid;
