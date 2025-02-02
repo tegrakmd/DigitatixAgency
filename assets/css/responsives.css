@@ -159,6 +159,9 @@
   .how_we_work_grid {
     margin-bottom: 88px;
   }
+  li.header_link_footer {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 468px) {
@@ -179,6 +182,7 @@
   .footer_container_item_right_container {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .footer_container_item_right_container > a {
     font-size: 10px;
   }

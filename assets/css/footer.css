@@ -36,9 +36,7 @@ footer {
   padding: 10px;
   height: 65%;
 }
-.header_link_footer_logo {
-  font-family: Emerland;
-}
+
 .footer_container_item {
   display: flex;
   flex-direction: column;
@@ -63,16 +61,12 @@ footer {
   height: 100%;
   padding: 1rem;
 }
-.link_footer_about_desc {
-  max-width: 540px;
-  text-align: justify;
-}
 
 .footer_container_item_right_container li {
   font-size: 18px;
 }
 li.header_link_footer {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 1.5rem;
 }
 li a.link_footer {
