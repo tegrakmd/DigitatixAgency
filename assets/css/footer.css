@@ -15,7 +15,6 @@ footer {
   left: 50%;
   bottom: -20%;
   transform: translate(-50%);
-  /* font-family: "Scania Sans CY Headline"; */
   font-family: lemon;
   font-weight: bold;
   font-style: normal;
@@ -25,8 +24,6 @@ footer {
   color: #fff;
   display: block;
   letter-spacing: 12px;
-
-  /* text-transform: uppercase; */
 }
 .footer_container {
   display: grid;
@@ -47,9 +44,7 @@ footer {
   flex-direction: column;
   justify-content: flex-end;
 }
-/* .digitatix_foot {
-  text-transform: uppercase;
-} */
+
 .footer_container_item_right_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
