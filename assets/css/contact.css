@@ -6,6 +6,7 @@
   position: relative;
   width: 100%;
   padding: 10px 15px 50px 15px;
+  background: white;
 }
 
 .formulaire_container {
@@ -65,10 +66,10 @@ form label {
   bottom: -12px;
   width: 400px;
   height: max-content;
+  background: transparent;
 }
 .form-2 {
   aspect-ratio: 1/1;
-  background-color: #e0e0e0;
 }
 .f-btn {
   margin-top: 2rem;
