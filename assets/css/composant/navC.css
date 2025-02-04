@@ -29,6 +29,7 @@
 
 .menu-nav {
   position: fixed;
+  font-family: inter;
   bottom: 15px;
   right: 50%;
   transform: translateX(50%);

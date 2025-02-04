@@ -62,12 +62,12 @@ class MenuNav extends HTMLElement {
     const basePath = this.getAttribute("base-path") || ".";
 
     this.innerHTML = `
-        <a href="#" class="menu-nav menu-btn-open">
+        <div href="" class="menu-nav menu-btn-open">
           <div class="menu-icon">
             <img src="${basePath}/assets/images/icons/plus.svg" alt="" />
           </div>
           <div class="menu-text">Menu</div>
-        </a>
+        </div>
       `;
   }
 }
