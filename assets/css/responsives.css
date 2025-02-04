@@ -49,8 +49,12 @@
     left: 15px;
     transform: translateX(0);
   }
+
   .logo a {
     font-size: 18px;
+  }
+  .logo {
+    background-color: rgba(255, 255, 255, 0.747);
   }
   .cursor-cercle,
   .cursor-dot {
