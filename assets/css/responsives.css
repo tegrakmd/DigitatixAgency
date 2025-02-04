@@ -176,7 +176,9 @@
   li.header_link_footer {
     font-size: 22px;
   }
-}
+  .footer_container_item_right_container {
+    gap: 5rem;
+  }
 
 @media (max-width: 468px) {
   .menu-close-btn,
