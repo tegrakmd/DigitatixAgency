@@ -32,8 +32,13 @@
 @media (max-width: 768px) {
   html {
     font-size: calc(100vw / 768 * 10);
-
     cursor: block;
+  }
+  .menu-close-btn,
+  .logo-overlay a {
+    letter-spacing: 2px;
+    font-family: Emerland;
+    font-size: 25px;
   }
   .hero,
   .about_cover {
