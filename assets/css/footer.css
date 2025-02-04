@@ -61,6 +61,11 @@ footer {
   height: 100%;
   padding: 1rem;
 }
+.footer_container_item_right_container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
 
 .footer_container_item_right_container li {
   font-size: 18px;
@@ -69,7 +74,15 @@ li.header_link_footer {
   font-size: 20px;
   margin-bottom: 1rem;
 }
-
+li.header_link_footer {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  transition: 1000ms ease-in-out;
+}
+.link_footer:hover {
+  letter-spacing: 2px;
+  transition: 1000ms ease-in-out;
+}
 li a.link_footer {
   /* font-size: 2rem; */
   font-size: 18px;

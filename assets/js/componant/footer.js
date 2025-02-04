@@ -18,42 +18,35 @@ class FooterComponent extends HTMLElement {
                   <li>
                     <a href="${basePath}" class="link_footer">
                       Home
-                      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <!-- Exemple de SVG (remplacez le contenu par le vôtre) -->
-                        <path d="M12.75 4C12.75 3.58579 12.4142 3.25 12 3.25C11.5858 3.25 11.25 3.58579 11.25 4H12.75ZM11.25 10C11.25 10.4142 11.5858 10.75 12 10.75C12.4142 10.75 12.75 10.4142 12.75 10H11.25ZM11.25 4V10H12.75V4H11.25Z" fill="currentColor"></path>
-                      </svg>
+                      <i class="ph ph-arrow-up-right"></i>
                     </a>
                   </li>
                   <li>
                     <a href="${basePath}/src/about.html" class="link_footer">
                       Studio
-                      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.75 4C12.75 3.58579 12.4142 3.25 12 3.25C11.5858 3.25 11.25 3.58579 11.25 4H12.75ZM11.25 10C11.25 10.4142 11.5858 10.75 12 10.75C12.4142 10.75 12.75 10.4142 12.75 10H11.25ZM11.25 4V10H12.75V4H11.25Z" fill="currentColor"></path>
-                      </svg>
+                    <i class="ph ph-arrow-up-right"></i
+                >
                     </a>
                   </li>
                   <li>
                     <a href="${basePath}/src/service.html" class="link_footer">
                       Services
-                      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.75 4C12.75 3.58579 12.4142 3.25 12 3.25C11.5858 3.25 11.25 3.58579 11.25 4H12.75ZM11.25 10C11.25 10.4142 11.5858 10.75 12 10.75C12.4142 10.75 12.75 10.4142 12.75 10H11.25ZM11.25 4V10H12.75V4H11.25Z" fill="currentColor"></path>
-                      </svg>
+                     <i class="ph ph-arrow-up-right"></i
+                >
                     </a>
                   </li>
                   <li>
                     <a href="${basePath}/src/work.html" class="link_footer">
                       Works
-                      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.75 4C12.75 3.58579 12.4142 3.25 12 3.25C11.5858 3.25 11.25 3.58579 11.25 4H12.75ZM11.25 10C11.25 10.4142 11.5858 10.75 12 10.75C12.4142 10.75 12.75 10.4142 12.75 10H11.25ZM11.25 4V10H12.75V4H11.25Z" fill="currentColor"></path>
-                      </svg>
+                      <i class="ph ph-arrow-up-right"></i
+                >
                     </a>
                   </li>
                   <li>
                     <a href="${basePath}/src/contact.html" class="link_footer">
                       Contact
-                      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.75 4C12.75 3.58579 12.4142 3.25 12 3.25C11.5858 3.25 11.25 3.58579 11.25 4H12.75ZM11.25 10C11.25 10.4142 11.5858 10.75 12 10.75C12.4142 10.75 12.75 10.4142 12.75 10H11.25ZM11.25 4V10H12.75V4H11.25Z" fill="currentColor"></path>
-                      </svg>
+                     <i class="ph ph-arrow-up-right"></i
+                >
                     </a>
                   </li>
                 </ul>
@@ -76,33 +69,29 @@ class FooterComponent extends HTMLElement {
                   <li>
                     <a href="#" class="link_footer">
                       Behance
-                      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.75 4C..." fill="currentColor"></path>
-                      </svg>
+                    <i class="ph ph-arrow-up-right"></i
+                >
                     </a>
                   </li>
                   <li>
                     <a href="#" class="link_footer">
                       Instagram
-                      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.75 4C..." fill="currentColor"></path>
-                      </svg>
+                     <i class="ph ph-arrow-up-right"></i
+                >
                     </a>
                   </li>
                   <li>
                     <a href="#" class="link_footer">
                       LinkedIn
-                      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.75 4C..." fill="currentColor"></path>
-                      </svg>
+                      <i class="ph ph-arrow-up-right"></i
+                >
                     </a>
                   </li>
                   <li>
                     <a href="#" class="link_footer">
                       Telegram
-                      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.75 4C..." fill="currentColor"></path>
-                      </svg>
+                    <i class="ph ph-arrow-up-right"></i
+                >
                     </a>
                   </li>
                 </ul>
