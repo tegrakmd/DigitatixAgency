@@ -1,8 +1,10 @@
 /* contact_hero_section */
+
 @media (max-width: 900px) {
   html {
     font-size: calc(100vw / 900 * 10);
   }
+
   /* services links */
   .swrapper_link .service_list ul {
     grid-template-columns: repeat(1, 1fr);
@@ -32,6 +34,10 @@
     font-size: calc(100vw / 768 * 10);
 
     cursor: block;
+  }
+  .hero,
+  .about_cover {
+    height: 80vh;
   }
   .footer > h1 a {
     position: absolute;
@@ -112,6 +118,7 @@
   .service_list li a figure {
     width: 4em;
     height: 4em;
+    font-size: 16px;
   }
   .expert {
     display: grid;

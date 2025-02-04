@@ -1,21 +1,23 @@
 /*  */
 /* nav_section */
 .logo {
-  /* background: white; */
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
   z-index: 10;
-  margin-top: 10px;
   height: fit-content;
-  top: 20px;
+  top: 15px;
   left: 50%;
   transform: translateX(-50%);
-  mix-blend-mode: difference;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  padding-top: 5rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
 }
 .logo a {
-  color: #e0e0e0;
   letter-spacing: 2px;
   font-family: Emerland;
 }
