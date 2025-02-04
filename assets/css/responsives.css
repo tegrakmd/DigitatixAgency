@@ -36,8 +36,6 @@
   }
   .menu-close-btn,
   .logo-overlay a {
-    letter-spacing: 2px;
-    font-family: Emerland;
     font-size: 25px;
   }
   .hero,
@@ -181,6 +179,10 @@
 }
 
 @media (max-width: 468px) {
+  .menu-close-btn,
+  .logo-overlay a {
+    font-size: 25px;
+  }
   .list_two_grid.how_we_work_grid {
     grid-template-columns: repeat(1, 1fr);
   }
