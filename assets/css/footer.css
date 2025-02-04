@@ -30,7 +30,7 @@ footer {
   grid-template-columns: repeat(1, 1fr);
   gap: 4rem;
   position: absolute;
-  top: 8%;
+  top: 10%;
   left: 0;
   width: 100%;
   padding: 10px;
@@ -84,7 +84,6 @@ li.header_link_footer {
   transition: 1000ms ease-in-out;
 }
 li a.link_footer {
-  /* font-size: 2rem; */
   font-size: 18px;
   display: flex;
   gap: 0.5rem;
