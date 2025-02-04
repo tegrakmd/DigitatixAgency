@@ -16,9 +16,23 @@
     grid-template-columns: repeat(3, 1fr);
   }
   .expert {
-    flex-direction: column;
+    display: grid;
     gap: 3rem;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: end;
+  }
+  .expert_item {
+    /* background-color: gray; */
+    padding: 2rem;
+  }
+  .expert_item h1 {
+    font-size: 20vw;
+    text-align: center;
+  }
+  .expert_item span {
+    width: 100%;
+    font-size: 3vw;
+    text-align: center;
   }
   .expert .line {
     display: block;
@@ -128,8 +142,9 @@
     font-size: 16px;
   }
   .expert {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 20px;
+    text-align: center;
   }
   .expert_item {
     display: flex;
@@ -191,11 +206,11 @@
     .how_we_work_grid {
       margin-bottom: 0;
     }
-    .expert {
+    /* .expert {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       column-gap: 2rem;
-    }
+    } */
     .logo a {
       font-size: 25px;
     }

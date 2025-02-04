@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="../assets/css/main.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
   </head>
   <body>
     <custom-cursor></custom-cursor>
@@ -24,19 +25,47 @@
             <!--  -->
             <div class="formulaire form-1">
               <div class="formulaire_container wrapper">
-                <form action="">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="79f35681-243c-4f18-9517-e7861d28e917" />
                   <div class="form_top">
-                    <input type="text" placeholder="First name*" />
-                    <input type="text" placeholder="Last name*" />
+                    <input
+                      type="text"
+                      name="First_name"
+                      placeholder="First name*"
+                      required />
+                    <input
+                      type="text"
+                      name="Last_name"
+                      placeholder="Last name*"
+                      required />
                   </div>
-                  <input type="mail" placeholder="Email*" />
-                  <label for="">Witch service are you interested</label>
-                  <div>
-                    <input type="text" />
-                    <option value=""></option>
+
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email*"
+                    required />
+                  <label for="service"
+                    >Which service are you interested in?</label
+                  >
+                  <div id="input">
+                    <select id="service_option" name="select" required>
+                      <option value="" disabled selected>
+                        Select a service
+                      </option>
+                      <option value="BrandIdentity">Brand Identity</option>
+                      <option value="WebDevelopment">Web Development</option>
+                      <option value="Seo">Seo</option>
+                      <option value="Copywrittingandediting">
+                        Copywritting and editing
+                      </option>
+                    </select>
                   </div>
-                  <label for="">Leave us a message</label>
-                  <input type="text" />
+                  <label for="message">Leave us a message</label>
+                  <textarea id="message" required></textarea>
                   <button type="submit" class="button_primaire f-btn">
                     Submit
                   </button>
@@ -53,19 +82,39 @@
       <!--  -->
       <div class="formulaire">
         <div class="formulaire_container form-2">
-          <form action="">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input
+              type="hidden"
+              name="access_key"
+              value="79f35681-243c-4f18-9517-e7861d28e917" />
             <div class="form_top">
-              <input type="text" placeholder="First name*" />
-              <input type="text" placeholder="Last name*" />
+              <input
+                type="text"
+                name="First_name"
+                placeholder="First name*"
+                required />
+              <input
+                type="text"
+                name="Last_name"
+                placeholder="Last name*"
+                required />
             </div>
-            <input type="mail" placeholder="Email*" />
-            <label for="">Witch service are you interested</label>
-            <div>
-              <input type="text" />
-              <option value=""></option>
+
+            <input type="email" name="email" placeholder="Email*" required />
+            <label for="service">Which service are you interested in?</label>
+            <div id="input">
+              <select id="service_option" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="BrandIdentity">Brand Identity</option>
+                <option value="WebDevelopment">Web Development</option>
+                <option value="Seo">Seo</option>
+                <option value="Copywrittingandediting">
+                  Copywritting and editing
+                </option>
+              </select>
             </div>
-            <label for="">Leave us a message</label>
-            <input type="text" />
+            <label for="message">Leave us a message</label>
+            <textarea id="message" required></textarea>
             <button type="submit" class="button_primaire f-btn">Submit</button>
           </form>
           <div class="line"></div>
@@ -103,7 +152,7 @@
       </section>
 
       <!-- social -->
-      <section class="service so_cont">
+      <section class="services so_cont">
         <div class="service_container swrapper">
           <div class="service_left">
             <div class="service_titles">

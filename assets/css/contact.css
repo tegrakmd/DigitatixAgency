@@ -40,12 +40,32 @@ form {
   gap: 1rem;
   width: 100%;
 }
-form input {
+form input,
+#input {
   padding: 0 10px;
   background-color: white;
   outline: none;
   border: none;
   height: 45px;
+}
+#input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+#service_option {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+}
+textarea {
+  padding: 10px;
+  background-color: white;
+  outline: none;
+  border: none;
 }
 form label {
   font-size: 15px;
