@@ -151,10 +151,9 @@ main.app {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
-
   margin: 0 auto;
   max-width: 192rem;
-  z-index: 2;
+  z-index: 3;
 }
 
 /* Style text */
@@ -263,6 +262,7 @@ main.app {
   position: relative;
   scroll-behavior: initial;
   overflow: hidden;
+  max-height: 100%;
 }
 
 h1 {

@@ -16,6 +16,7 @@
 body,
 section {
   background-color: #fff;
+  height: 100%;
 }
 p {
   font-size: 16px;
@@ -23,7 +24,7 @@ p {
   font-family: Poppins;
 }
 figure img {
-  will-change: auto;
+  will-change: transform;
 }
 /* hero_section */
 .hero {
