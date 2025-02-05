@@ -35,6 +35,8 @@ parallaxImages.forEach((image) => {
   );
 });
 
+//
+
 // const parallaxImage = document.querySelector(".parallax-image");
 // const parallaxParent = document.querySelector(".pParent");
 

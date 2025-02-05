@@ -1,7 +1,6 @@
 /* style font*/
 @import url(./font.css);
-/* style transition*/
-@import url(./composant/transition.css);
+
 /* settings style */
 @import url(./settings.css);
 /* style lenis */
