@@ -212,10 +212,12 @@ img {
   letter-spacing: 2px;
 }
 /* Ajoutez ceci à votre fichier CSS */
-.icon-rotate {
+.icon-rotate i {
   display: inline-block; /* Assurez-vous que l'élément est un bloc en ligne */
   animation: rotate 2s linear infinite; /* Animation de rotation infinie */
   color: #000;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 @keyframes rotate {
