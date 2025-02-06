@@ -68,7 +68,7 @@ class MenuNav extends HTMLElement {
           </div>
           <div class="menu-text">Menu</div>
         </div>
-        // 
+         
         <div class="menu-overlay">
           <div id="menu-nav">
             <div class="logo-overlay">

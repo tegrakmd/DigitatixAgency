@@ -13,6 +13,9 @@
   --accent: #1b21f9;
   --bg: #e3e3e3;
 }
+html {
+  background-color: #fff;
+}
 body,
 section {
   background-color: #fff;
