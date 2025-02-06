@@ -30,14 +30,14 @@ class FooterComponent extends HTMLElement {
                   </li>
                   <li>
                     <a href="${basePath}/src/service.html" class="link_footer">
-                      Services
+                      Service
                      <i class="ph ph-arrow-up-right"></i
                 >
                     </a>
                   </li>
                   <li>
                     <a href="${basePath}/src/work.html" class="link_footer">
-                      Works
+                      Work
                       <i class="ph ph-arrow-up-right"></i
                 >
                     </a>
