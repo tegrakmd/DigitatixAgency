@@ -8,6 +8,7 @@ function raf(time) {
 }
 requestAnimationFrame(raf);
 
+// TRANSITION
 // GSAP parallax effect
 // Appliquer l'effet de parallaxe à l'image de fond de la section hero
 // Sélectionne tous les éléments avec la classe "parallax-image"

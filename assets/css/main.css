@@ -25,3 +25,5 @@
 @import url(./footer.css);
 /* responsive style */
 @import url(./responsives.css);
+/* style transition*/
+@import url(./composant/transition.css);
