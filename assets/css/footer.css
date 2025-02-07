@@ -80,10 +80,7 @@ li.header_link_footer {
   margin-bottom: 1rem;
   transition: 1000ms ease-in-out;
 }
-.link_footer:hover {
-  letter-spacing: 2px;
-  transition: 1000ms ease-in-out;
-}
+
 li a.link_footer {
   font-size: 18px;
   display: flex;
@@ -91,4 +88,9 @@ li a.link_footer {
   align-items: center;
   color: #e0e0e0;
   padding-top: 2px;
+  transition: 1000ms ease-in-out;
+}
+.link_footer:hover {
+  letter-spacing: 2px;
+  transition: 1000ms ease-in-out;
 }
