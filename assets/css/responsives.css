@@ -91,6 +91,9 @@
     width: 4em;
     height: 4em;
   }
+  .ambassador {
+    gap: 0.8em;
+  }
 
   /*  */
   .menu-text {
