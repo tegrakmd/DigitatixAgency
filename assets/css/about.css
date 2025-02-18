@@ -82,11 +82,8 @@
 }
 
 .ambassadors--gsap {
-  background: #010101;
   background: #fff;
-  color: #fff;
   color: #111;
-  /* height: 100vh; */
 }
 .ambassadors--gsap .ambassadors__top,
 .ambassadors--gsap .ambassadors__bottom {
@@ -134,6 +131,8 @@
   flex-shrink: 0;
   width: 2em;
   height: 2em;
+  border-radius: 4px;
+  overflow: hidden;
 }
 .ambassador__image img,
 .ambassador__image video {
