@@ -61,7 +61,6 @@ class FooterComponent extends HTMLElement {
                   <li>Agadir 80000</li>
                   <li>RDC</li>
                 </ul>
-                
                 <!-- Social -->
                 <ul>
                   <li class="header_link_footer">Social</li>
