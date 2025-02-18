@@ -87,6 +87,11 @@
     transform: translateX(0);
   }
   /*  */
+  .ambassador__image {
+    width: 3em;
+    height: 3em;
+  }
+  /*  */
   .menu-text {
     font-size: 12px;
   }
