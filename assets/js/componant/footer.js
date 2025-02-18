@@ -57,9 +57,8 @@ class FooterComponent extends HTMLElement {
                 <!-- Studio -->
                 <ul>
                   <li class="header_link_footer">Studio</li>
-                  <li>9 quao Androe</li>
-                  <li>Rockfiead 69001</li>
-                  <li>Ontario</li>
+                  <li>Technopark</li>
+                  <li>Agadir 80000</li>
                   <li>RDC</li>
                 </ul>
                 
