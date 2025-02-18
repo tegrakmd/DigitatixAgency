@@ -78,6 +78,7 @@
   padding: max(4rem, calc(100vw / 24 * 3)) 0;
   max-width: 100%;
   overflow: hidden;
+  background: #fff;
 }
 
 .ambassadors--gsap {
