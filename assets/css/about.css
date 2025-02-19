@@ -58,6 +58,61 @@
   font-size: 12px;
   color: var(--young_black);
 }
+/*  */
+/* .marquee_work {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 24px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 50px 15px 15px;
+  overflow: hidden;
+}
+
+.marquee_inner {
+  display: flex;
+  width: fit-content;
+  flex: auto;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.marquee_part {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.marquee_part a .etiquete-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  mix-blend-mode: difference;
+}
+
+.marquee_part figure {
+  border-radius: 5px;
+  aspect-ratio: 3/2.4;
+  height: 20rem;
+  position: relative;
+  overflow: hidden;
+} */
+
 /* TEAM */
 
 /* SECTION AMBASSADORS */

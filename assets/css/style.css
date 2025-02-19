@@ -12,6 +12,9 @@
   --token-017e8401-391b-4a64-8527-a4350e1939cd: rgb(217, 155, 0);
   --accent: #1b21f9;
   --bg: #e3e3e3;
+
+  /*  */
+  --animate-duration: 1s;
 }
 html {
   background-color: #fff;
@@ -86,6 +89,7 @@ figure img {
 }
 .hero_data_desc h1 {
   color: #fff;
+  /* color: #111; */
   z-index: 3;
   font-weight: 600;
   font-size: 8vw;
@@ -106,7 +110,83 @@ img.img_bg {
   /* height: 140%;
   transform: translateY(var(--y)) */
 }
-
+/*  */
+.section {
+  /* padding: 1.875rem; */
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* .animate__animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: var(--animate-duration);
+  animation-duration: var(--animate-duration);
+} */
+.section-lg {
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+}
+.section-home-video {
+  height: auto !important;
+  max-height: none !important;
+}
+.section-home-video-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  transition: 0.4s ease padding;
+}
+.section.no-padding-bottom {
+  padding-bottom: 0 !important;
+}
+.section-home-video {
+  height: auto !important;
+  max-height: none !important;
+}
+.section-home-video-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  transition: 0.4s ease padding;
+}
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 80px, 0);
+    transform: translate3d(0, 80px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 80px, 0);
+    transform: translate3d(0, 80px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
 /* About_section */
 .about {
   flex: none;
@@ -221,6 +301,7 @@ img.img_bg {
   font-weight: 400;
   line-height: 1;
 }
+
 /* About_section */
 .service {
   width: 100%;

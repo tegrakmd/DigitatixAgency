@@ -36,27 +36,6 @@ parallaxImages.forEach((image) => {
   );
 });
 
-//
-
-// const parallaxImage = document.querySelector(".parallax-image");
-// const parallaxParent = document.querySelector(".pParent");
-
-// gsap.fromTo(
-//   parallaxImage,
-//   {
-//     yPercent: -30, // Déplace l'image de 20% vers le haut au départ
-//   },
-//   {
-//     yPercent: 30, // Déplace l'image de 20% vers le bas à la fin
-//     ease: "none",
-//     scrollTrigger: {
-//       trigger: heroImage.closest(".pParent"), // Déclenche l'animation sur la section hero
-//       start: "top bottom", // Déclenche l'animation lorsque le haut de l'élément atteint le bas de la fenêtre
-//       end: "bottom top", // Termine l'animation lorsque le bas de l'élément atteint le haut de la fenêtre
-//       scrub: true, // Rend l'animation fluide avec le défilement
-//     },
-//   }
-// );
 // MARQUEE
 const initMarquees = () => {
   const ambassadors = [...document.querySelectorAll(".ambassadors--gsap")];
@@ -137,6 +116,7 @@ ScrollTrigger.create({
 });
 
 ScrollTrigger.refresh();
+
 //
 
 // // GSAP and ScrollTrigger
@@ -242,3 +222,28 @@ ScrollTrigger.refresh();
 //     return $(el).css("top", dist * speed + "px");
 //   });
 // };
+
+//
+//
+
+//
+
+// const parallaxImage = document.querySelector(".parallax-image");
+// const parallaxParent = document.querySelector(".pParent");
+
+// gsap.fromTo(
+//   parallaxImage,
+//   {
+//     yPercent: -30, // Déplace l'image de 20% vers le haut au départ
+//   },
+//   {
+//     yPercent: 30, // Déplace l'image de 20% vers le bas à la fin
+//     ease: "none",
+//     scrollTrigger: {
+//       trigger: heroImage.closest(".pParent"), // Déclenche l'animation sur la section hero
+//       start: "top bottom", // Déclenche l'animation lorsque le haut de l'élément atteint le bas de la fenêtre
+//       end: "bottom top", // Termine l'animation lorsque le bas de l'élément atteint le haut de la fenêtre
+//       scrub: true, // Rend l'animation fluide avec le défilement
+//     },
+//   }
+// );
