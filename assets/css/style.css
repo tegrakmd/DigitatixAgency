@@ -59,7 +59,6 @@ figure img {
 }
 
 .hero_data {
-  padding: 25px;
   border-radius: 8px;
   opacity: 1;
   align-content: flex-start;
@@ -69,7 +68,6 @@ figure img {
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 10px;
-  height: 1px;
   justify-content: flex-end;
   overflow: hidden;
   padding: 30px;
@@ -234,6 +232,7 @@ img.img_bg {
   /* font-size: 3rem; */
   font-family: poppins;
   line-height: 1.5;
+  text-align: justify;
 }
 
 .about_desc button a {
@@ -479,6 +478,7 @@ img.img_bg {
   color: var(--young_black);
   font-family: Inter;
   font-size: 17px;
+  text-align: justify;
 }
 .item_grid_one_card a {
   display: flex;

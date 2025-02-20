@@ -40,6 +40,8 @@
 }
 .how_we_work_grid {
   margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .service_container.about_service {
   padding: 40px 15px;

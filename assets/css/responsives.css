@@ -12,8 +12,8 @@
   .form-1 {
     width: 400px;
   }
-  .list_two_grid.how_we_work_grid {
-    grid-template-columns: repeat(3, 1fr);
+  .how_we_work_grid {
+    grid-template-columns: repeat(1, 1fr);
   }
   .expert {
     display: grid;
