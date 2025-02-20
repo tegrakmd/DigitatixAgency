@@ -35,7 +35,37 @@ parallaxImages.forEach((image) => {
     }
   );
 });
+// REVEAL
+// Sélectionner toutes les cartes
+const projectCards = document.querySelectorAll(".card-reveal");
 
+// Initialiser les cartes (les cacher)
+projectCards.forEach((card) => {
+  gsap.set(card, {
+    y: 100,
+    opacity: 0,
+  });
+});
+
+// Créer une animation pour chaque carte
+projectCards.forEach((card, index) => {
+  gsap.to(card, {
+    scrollTrigger: {
+      trigger: card,
+      start: "top 90%", // Démarre quand la carte est à 85% du haut de l'écran
+      end: "top 20%", // Termine quand la carte est à 20% du haut de l'écran
+      scrub: 1, // Permet une animation fluide liée au scroll
+      toggleActions: "play reverse play reverse", // Joue en descendant, reverse en montant
+      // markers: true, // Décommenter pour debug
+    },
+    y: 0,
+    opacity: 1,
+    duration: 1,
+    ease: "power2.out",
+    delay: index * 0.1, // Petit délai entre chaque carte
+  });
+});
+// ... existing code ...
 // MARQUEE
 const initMarquees = () => {
   const ambassadors = [...document.querySelectorAll(".ambassadors--gsap")];
