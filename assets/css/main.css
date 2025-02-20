@@ -4,7 +4,7 @@
 /* settings style */
 @import url(./settings.css);
 /* style lenis */
-/* @import url(./lenis.css); */
+@import url(./lenis.css);
 /* style composant and web design*/
 @import url(../css/composant/design_system.css);
 /* cursor */
