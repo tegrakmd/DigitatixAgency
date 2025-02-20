@@ -52,7 +52,7 @@ projectCards.forEach((card, index) => {
   gsap.to(card, {
     scrollTrigger: {
       trigger: card,
-      start: "top 90%", // Démarre quand la carte est à 85% du haut de l'écran
+      start: "top 85%", // Démarre quand la carte est à 85% du haut de l'écran
       end: "top 20%", // Termine quand la carte est à 20% du haut de l'écran
       scrub: 1, // Permet une animation fluide liée au scroll
       toggleActions: "play reverse play reverse", // Joue en descendant, reverse en montant
@@ -65,7 +65,7 @@ projectCards.forEach((card, index) => {
     delay: index * 0.1, // Petit délai entre chaque carte
   });
 });
-// ... existing code ...
+
 // MARQUEE
 const initMarquees = () => {
   const ambassadors = [...document.querySelectorAll(".ambassadors--gsap")];
