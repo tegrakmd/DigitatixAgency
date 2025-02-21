@@ -3,6 +3,19 @@
   --orange_color_hover: rgb(217, 155, 0);
   --young_black: rgba(0, 0, 0, 0.689);
 } */
+@theme {
+  --color-primary-50: hsl(240, 80%, 97%);
+  --color-primary-100: hsl(240, 80%, 93%);
+  --color-primary-200: hsl(240, 80%, 87%);
+  --color-primary-300: hsl(240, 80%, 78%);
+  --color-primary-400: hsl(240, 80%, 68%);
+  --color-primary-500: hsl(240, 80%, 60%);
+  --color-primary-600: hsl(240, 80%, 53%);
+  --color-primary-700: hsl(240, 80%, 48%);
+  --color-primary-800: hsl(240, 80%, 40%);
+  --color-primary-900: hsl(240, 80%, 33%);
+  --color-primary-950: hsl(240, 80%, 21%);
+}
 :root {
   --orange_color: rgb(0, 160, 252);
   --orange_color_hover: rgb(6, 131, 204);
