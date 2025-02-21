@@ -13,6 +13,8 @@
 @import url(../css/composant/navC.css);
 /* style home page */
 @import url(./style.css);
+/* style home page */
+@import url(./trans.css);
 /* style servicelink */
 @import url(./service.css);
 /* style works */
