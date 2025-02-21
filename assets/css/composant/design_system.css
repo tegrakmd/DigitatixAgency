@@ -1,9 +1,8 @@
-/* :root {
+:root {
   --orange_color: rgb(252, 182, 0);
   --orange_color_hover: rgb(217, 155, 0);
   --young_black: rgba(0, 0, 0, 0.689);
-} */
-@theme {
+
   --color-primary-50: hsl(240, 80%, 97%);
   --color-primary-100: hsl(240, 80%, 93%);
   --color-primary-200: hsl(240, 80%, 87%);
@@ -29,7 +28,6 @@ button a {
   font-size: 16px;
 }
 .button_primaire {
-  /* background-color: var(--orange_color, rgb(252, 182, 0)); */
   background-color: var(--orange_color, rgb(0, 160, 252));
   border-radius: 8px;
   opacity: 1;
@@ -41,7 +39,6 @@ button a {
   background-color: var(--orange_color_hover);
 }
 .button_secondaire {
-  /* background-color: var(rgb(252, 182, 0)); */
   background-color: var(rgb(0, 160, 252));
   border-radius: 8px;
   opacity: 1;
