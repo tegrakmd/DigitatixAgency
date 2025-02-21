@@ -59,7 +59,9 @@ figure img {
   position: relative;
   will-change: transform;
 }
-
+.card-reveal {
+  will-change: transform;
+}
 .hero_data {
   border-radius: 8px;
   opacity: 1;

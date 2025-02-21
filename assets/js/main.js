@@ -87,7 +87,8 @@ const marquee = (item, time, direction) => {
 };
 
 initMarquees();
-// FOOTER
+
+// FOOTER //
 gsap.set("section.footer-container", { yPercent: -50 });
 
 const uncover = gsap.timeline({ paused: true });
