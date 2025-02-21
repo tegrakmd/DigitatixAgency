@@ -1,7 +1,21 @@
-// Initializes smooth scrolling with Lenis and integrates it with GSAP's ScrollTrigger.
-// Function to set up smooth scrolling.
+// // Activate the smooth scrolling feature.
+// initSmoothScrolling();
+const lenis = new Lenis({
+  duration: 1.2, // Durée de l'animation de défilement
+  smoothWheel: true, // Lissage du défilement de la molette
+  wheelMultiplier: 1, // Multiplicateur de vitesse de défilement
+});
 
-const lenis = new Lenis();
+// Synchroniser Lenis avec ScrollTrigger
+lenis.on("scroll", ScrollTrigger.update);
+
+// Synchroniser GSAP avec Lenis
+gsap.ticker.add((time) => {
+  lenis.raf(time * 1000);
+});
+
+// Désactiver le lissage par défaut de GSAP
+gsap.ticker.lagSmoothing(0);
 
 function raf(time) {
   lenis.raf(time);
@@ -9,22 +23,3 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
-
-// const initSmoothScrolling = () => {
-//   // Initialize Lenis for smooth scroll effects. Lerp value controls the smoothness.
-//   const lenis = new Lenis();
-
-//   // Sync ScrollTrigger with Lenis' scroll updates.
-//   lenis.on("scroll", ScrollTrigger.update);
-
-//   // Ensure GSAP animations are in sync with Lenis' scroll frame updates.
-//   gsap.ticker.add((time) => {
-//     lenis.raf(time * 2000); // Convert GSAP's time to milliseconds for Lenis.
-//   });
-
-//   // Turn off GSAP's default lag smoothing to avoid conflicts with Lenis.
-//   gsap.ticker.lagSmoothing(0);
-// };
-
-// // Activate the smooth scrolling feature.
-// initSmoothScrolling();
