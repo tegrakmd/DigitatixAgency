@@ -1,6 +1,6 @@
 // import "./preloa.js";
 
-import "./smoothscroll.js";
+// import "./smoothscroll.js";
 import "./componant/nav.js";
 import "./componant/logo.js";
 import "./componant/footer.js";

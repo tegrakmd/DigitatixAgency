@@ -31,6 +31,7 @@ p {
   font-weight: 300;
   font-family: Poppins;
 }
+figure,
 figure img {
   will-change: transform;
 }
