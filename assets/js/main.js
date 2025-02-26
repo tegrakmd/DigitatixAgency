@@ -1,8 +1,17 @@
 gsap.registerPlugin(ScrollTrigger);
 let lenis;
 
+const SCROLL_TRIGGER_START = "top bottom";
+const SCROLL_TRIGGER_END = "bottom top";
+const CARD_REVEAL_START = "top 90%";
+const CARD_REVEAL_END = "top 65%";
+const MARQUEE_DURATION = 20;
+const MARQUEE_REPEAT = -1;
+const FOOTER_Y_PERCENT = -50;
+const FOOTER_END = "+=75%";
+
 const initLenis = () => {
-  const lenis = new Lenis({
+  lenis = new Lenis({
     lerp: 0.05,
     // Infinity: true,
   });
@@ -26,8 +35,8 @@ const parallaxe = () => {
         ease: "none",
         scrollTrigger: {
           trigger: image.closest(".pParent"),
-          start: "top bottom",
-          end: "bottom top",
+          start: SCROLL_TRIGGER_START,
+          end: SCROLL_TRIGGER_END,
           scrub: true,
         },
       }
@@ -47,8 +56,8 @@ const cardReveal = () => {
     gsap.to(card, {
       scrollTrigger: {
         trigger: card,
-        start: "top 90%",
-        end: "top 65%",
+        start: CARD_REVEAL_START,
+        end: CARD_REVEAL_END,
         scrub: 1.5,
         toggleActions: "play none none reverse",
       },
@@ -60,7 +69,7 @@ const cardReveal = () => {
 };
 // MARQUEE
 const marquee = (item, time, direction) => {
-  let mod = gsap.utils.wrap(0, 50);
+  const mod = gsap.utils.wrap(0, 50);
   return gsap.to(item, {
     duration: time,
     ease: "none",
@@ -68,7 +77,7 @@ const marquee = (item, time, direction) => {
     modifiers: {
       x: (x) => (direction = mod(parseFloat(x)) + "%"),
     },
-    repeat: -1,
+    repeat: MARQUEE_REPEAT,
   });
 };
 // Marquees
@@ -88,8 +97,8 @@ const initMarquees = () => {
 
     const master = gsap
       .timeline()
-      .add(marquee(topEl, 20, "-=50%"), 0)
-      .add(marquee(bottomEl, 20, "+=50%"), 0);
+      .add(marquee(topEl, MARQUEE_DURATION, "-=50%"), 0)
+      .add(marquee(bottomEl, MARQUEE_DURATION, "+=50%"), 0);
 
     ScrollTrigger.create({
       start: 0,
@@ -103,7 +112,7 @@ const initMarquees = () => {
 // footer
 const footerReveal = () => {
   // FOOTER //
-  gsap.set("section.footer-container", { yPercent: -50 });
+  gsap.set("section.footer-container", { yPercent: FOOTER_Y_PERCENT });
 
   const uncover = gsap.timeline({ paused: true });
 
@@ -112,7 +121,7 @@ const footerReveal = () => {
   ScrollTrigger.create({
     trigger: "section.conclusion",
     start: "bottom bottom",
-    end: "+=75%",
+    end: FOOTER_END,
     animation: uncover,
     scrub: true,
     // markers: true,

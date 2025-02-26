@@ -33,7 +33,7 @@ p {
 }
 figure,
 figure img {
-  will-change: transform;
+  will-change: transform, opacity;
 }
 /* hero_section */
 .hero {
