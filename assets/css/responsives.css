@@ -4,7 +4,6 @@
   html {
     font-size: calc(100vw / 900 * 10);
   }
-
   /* services links */
   .swrapper_link .service_list ul {
     grid-template-columns: repeat(1, 1fr);
@@ -22,7 +21,6 @@
     justify-content: end;
   }
   .expert_item {
-    /* background-color: gray; */
     padding: 2rem;
   }
   .expert_item h1 {
@@ -54,7 +52,7 @@
   }
   .hero,
   .about_cover {
-    height: 80vh;
+    height: 80dvh;
   }
   .footer > h1 a {
     position: absolute;
@@ -70,6 +68,10 @@
   .logo a {
     font-size: 18px;
   }
+  .logo a img {
+    width: 40px;
+  }
+
   .logo {
     background-color: rgba(255, 255, 255, 0.747);
   }
@@ -231,4 +233,7 @@
       font-size: 10px;
     }
   }
+}
+.parallax-image {
+  will-change: transform, opacity;
 }

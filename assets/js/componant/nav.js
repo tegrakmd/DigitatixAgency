@@ -72,7 +72,8 @@ class MenuNav extends HTMLElement {
         <div class="menu-overlay">
           <div id="menu-nav">
             <div class="logo-overlay">
-              <a href="#">digitatix®</a>
+              <a href="#">
+               <img src="../../assets/images/logo2s.PNG" alt=""></a>
             </div>
             <div class="menu-close-btn">
               <i class="ph ph-x"></i>

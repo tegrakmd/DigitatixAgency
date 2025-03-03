@@ -24,7 +24,18 @@ section {
   background-color: #fff;
   height: 100%;
 }
-
+[text-split] {
+  opacity: 0;
+  will-change: transform;
+  font-size: 12px;
+}
+.word {
+  overflow: hidden;
+  padding-bottom: 0.1em;
+  margin-bottom: -0.1em;
+  transform-origin: bottom;
+  will-change: transform;
+}
 /*  */
 p {
   font-size: 16px;
@@ -35,6 +46,7 @@ figure,
 figure img {
   will-change: transform, opacity;
 }
+
 /* hero_section */
 .hero {
   flex: none;
@@ -78,6 +90,11 @@ figure img {
   padding: 30px;
   position: relative;
   width: 100%;
+}
+.hero_data.index {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero_data_desc {
@@ -235,9 +252,9 @@ img.img_bg {
 
 .about_desc p {
   /* font-size: 3rem; */
-  font-family: poppins;
+  font-family: Inter;
   line-height: 1.5;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .about_desc button a {

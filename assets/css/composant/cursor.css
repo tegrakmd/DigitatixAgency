@@ -12,7 +12,9 @@ html {
 .cursor-cercle {
   width: 30px;
   height: 30px;
+
   border: solid 2px hsl(0, 0%, 100%, 0.5);
+  mix-blend-mode: difference;
 }
 .cursor-cercle,
 .cursor-dot {

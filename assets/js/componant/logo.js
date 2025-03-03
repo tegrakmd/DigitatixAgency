@@ -8,10 +8,17 @@ class LogoComponent extends HTMLElement {
 
     this.innerHTML = `
             <div class="logo">
-                <a href="${basePath}/index.html">digitatix®</a>
+          
+                <a href="${basePath}/index.html">
+                  <img src="../../assets/images/logo2s.PNG" alt="">
+                </a>
+
             </div>
         `;
   }
 }
 
 customElements.define("logo-component", LogoComponent);
+{
+  /* <a href="${basePath}/index.html">digitatix®</a> */
+}
