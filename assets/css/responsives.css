@@ -234,6 +234,3 @@
     }
   }
 }
-.parallax-image {
-  will-change: transform, opacity;
-}

@@ -73,7 +73,7 @@ figure img {
   will-change: transform;
 }
 .card-reveal {
-  will-change: transform;
+  will-change: transform, opacity;
 }
 .hero_data {
   border-radius: 8px;
