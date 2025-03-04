@@ -43,11 +43,11 @@ p {
   font-family: Poppins;
 }
 .card-reveal {
-  will-change: transform, opacity;
+  will-change: transform, opacity !important;
 }
 figure,
 figure img {
-  will-change: transform, opacity;
+  will-change: transform, opacity !;
 }
 
 /* hero_section */
