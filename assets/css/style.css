@@ -42,6 +42,9 @@ p {
   font-weight: 300;
   font-family: Poppins;
 }
+.card-reveal {
+  will-change: transform, opacity;
+}
 figure,
 figure img {
   will-change: transform, opacity;
@@ -72,9 +75,7 @@ figure img {
   position: relative;
   will-change: transform;
 }
-.card-reveal {
-  will-change: transform, opacity;
-}
+
 .hero_data {
   border-radius: 8px;
   opacity: 1;
@@ -109,7 +110,6 @@ figure img {
 }
 .hero_data_desc h1 {
   color: #fff;
-  /* color: #111; */
   z-index: 3;
   font-weight: 600;
   font-size: 8vw;
@@ -126,9 +126,6 @@ img.img_bg {
   border-radius: inherit;
   object-position: center center;
   object-fit: cover;
-
-  /* height: 140%;
-  transform: translateY(var(--y)) */
 }
 /*  */
 .section {
