@@ -14,6 +14,9 @@ const initLenis = () => {
   lenis = new Lenis({
     lerp: 0.05,
     // Infinity: true,
+    duration: 1, // Durée de l'animation de défilement
+    smoothWheel: true, // Lissage du défilement de la molette
+    wheelMultiplier: 0.7, // Multiplicateur de vitesse de
   });
   lenis.on("scroll", ScrollTrigger.update);
   gsap.ticker.add((time) => {
