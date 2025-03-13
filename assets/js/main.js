@@ -190,8 +190,43 @@ const footerReveal = () => {
   });
 };
 
+// logoAnimation Transition timelin
+
+const transTime = () => {
+  const logoAnim = document.querySelector(".logo");
+  const navAnim = document.querySelector(".menu-btn-open");
+  const countAnim = document.querySelector(".counter");
+
+  const tl = gsap.timeline();
+
+  tl.from(logoAnim, {
+    y: -10,
+    opacity: 0,
+    duration: 1.5,
+  })
+    .from(
+      navAnim,
+      {
+        y: -10,
+        opacity: 0,
+        duration: 1.5,
+      },
+      "<0.5" // Démarre 0.2s après le début de l'animation précédente
+    )
+    .from(
+      countAnim,
+      {
+        y: 100,
+        opacity: 0,
+        duration: 1.5,
+      },
+      "<0.5"
+    ); // Démarre 0.2s après le début de l'animation précédente
+};
+
 window.addEventListener("DOMContentLoaded", () => {
   initLenis();
+  transTime();
   parallaxe();
   createScrollTrigger();
   cardReveal();
