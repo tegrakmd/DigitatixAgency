@@ -69,6 +69,7 @@ const parallaxe = () => {
 // conter
 
 const counter = () => {
+  const counterButton1 = document.querySelector(".counter ");
   const counterButton = document.querySelector(".counter p");
   const docHeight = document.documentElement.scrollHeight - window.innerHeight;
 
@@ -83,6 +84,11 @@ const counter = () => {
 
   // Update on scroll
   window.addEventListener("scroll", updateScrollPercentage);
+
+  //
+  counterButton1.addEventListener("click", () => {
+    lenis.scrollTo("top", { duration: 5 });
+  });
 };
 // REVEAL
 // Sélectionner toutes les cartes
