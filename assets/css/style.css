@@ -55,15 +55,19 @@ section {
   justify-content: center;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(12px);
-  background-color: rgba(255, 255, 255, 0.481);
+  /* background-color: rgba(255, 255, 255, 0.481); */
+  background-color: white;
   border-radius: 50%;
   cursor: pointer;
   border: 1px solid rgb(209, 209, 209);
 }
 .counter p {
-  -mix-blend-mode: difference;
-  mix-blend-mode: difference;
   font-weight: 600;
+  color: #e1e1e1;
+  transition: ease-in-out 500ms;
+}
+.counter:hover p {
+  color: #111;
 }
 /*  */
 p {

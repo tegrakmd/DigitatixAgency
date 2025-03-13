@@ -224,6 +224,16 @@ const transTime = () => {
     ); // Démarre 0.2s après le début de l'animation précédente
 };
 
+//
+// gsap.to(".clip-reveal", {
+//   clipPath: "polygon(0 0%, 100% 100%, 100% 100%, 0 100%)",
+//   opacity: 1,
+//   y: -100,
+//   duration: 5,
+//   stagger: 0.2,
+//   ease: "power4.out",
+// });
+
 window.addEventListener("DOMContentLoaded", () => {
   initLenis();
   transTime();
