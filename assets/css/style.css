@@ -16,6 +16,12 @@
   /*  */
   --animate-duration: 1s;
 }
+
+/*  */
+.text_right {
+  will-change: transform;
+}
+/*  */
 html {
   background-color: #fff;
 }
@@ -37,6 +43,29 @@ section {
   will-change: transform;
 }
 /*  */
+.counter {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 5;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.481);
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid rgb(209, 209, 209);
+}
+.counter p {
+  -mix-blend-mode: difference;
+  mix-blend-mode: difference;
+  font-weight: 600;
+}
+/*  */
 p {
   font-size: 16px;
   font-weight: 300;
@@ -44,6 +73,7 @@ p {
 }
 .card-reveal {
   will-change: transform, opacity !important;
+  /* will-change: transform; */
 }
 figure,
 figure img {
@@ -127,7 +157,9 @@ img.img_bg {
   object-position: center center;
   object-fit: cover;
 }
-/*  */
+
+/*==================*/
+
 .section {
   /* padding: 1.875rem; */
   position: relative;
@@ -135,12 +167,7 @@ img.img_bg {
   background-position: center;
   background-repeat: no-repeat;
 }
-/* .animate__animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-duration: var(--animate-duration);
-  animation-duration: var(--animate-duration);
-} */
+
 .section-lg {
   padding-top: 6.25rem;
   padding-bottom: 6.25rem;
@@ -247,13 +274,17 @@ img.img_bg {
   padding: 0 60px 0 0;
 }
 
-.about_desc p {
-  /* font-size: 3rem; */
+/* .about_desc p {
+  font-size: 3rem;
   font-family: Inter;
   line-height: 1.5;
-  /* text-align: justify; */
+  text-align: justify;
+} */
+.about_text {
+  font-family: Inter;
+  line-height: 1.5;
+  text-align: justify;
 }
-
 .about_desc button a {
   font-size: 16px;
   font-family: poppins;

@@ -1,4 +1,4 @@
-@keyframes move-out {
+/* @keyframes move-out {
   from {
     opacity: 1;
     transform: translateY(0);
@@ -24,4 +24,4 @@
 
 ::view-transition-new(root) {
   animation: 1.5s cubic-bezier(0.87, 0, 0.13, 1) both move-in;
-}
+} */

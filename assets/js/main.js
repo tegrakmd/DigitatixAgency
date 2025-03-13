@@ -24,11 +24,30 @@ const initLenis = () => {
   });
   gsap.ticker.lagSmoothing(0);
 };
+// SCROLL
+const createScrollTrigger = () => {
+  gsap.utils.toArray("[data-speed]").forEach((element) => {
+    const speed = parseFloat(element.dataset.speed);
+    gsap.fromTo(
+      element,
+      { y: speed * -100 },
+      {
+        y: speed * 100,
+        ease: "none",
+        scrollTrigger: {
+          trigger: element,
+          start: SCROLL_TRIGGER_START,
+          end: SCROLL_TRIGGER_END,
+          scrub: true,
+        },
+      }
+    );
+  });
+};
 // PARALLAXE
 const parallaxe = () => {
   // Sélectionne tous les éléments avec la classe "parallax-image"
   const parallaxImages = document.querySelectorAll(".parallax-image");
-
   parallaxImages.forEach((image) => {
     gsap.fromTo(
       image,
@@ -45,6 +64,25 @@ const parallaxe = () => {
       }
     );
   });
+};
+
+// conter
+
+const counter = () => {
+  const counterButton = document.querySelector(".counter p");
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+  const updateScrollPercentage = () => {
+    const scrollPosition = window.scrollY;
+    const scrollPercentage = Math.round((scrollPosition / docHeight) * 100);
+    counterButton.textContent = scrollPercentage + "%";
+  };
+
+  // Initial update
+  updateScrollPercentage();
+
+  // Update on scroll
+  window.addEventListener("scroll", updateScrollPercentage);
 };
 // REVEAL
 // Sélectionner toutes les cartes
@@ -69,6 +107,19 @@ const cardReveal = () => {
       ease: "power2.out",
     });
   });
+};
+
+// Baffles
+const baffles = () => {
+  let quote = baffle(".quote");
+
+  quote
+    .set({
+      characters: "░▓▓ >▓█/▒ /<░▒▒ ▒░█ ▒█<▒▓ ▓▓▒▓ ▒▒░ ▒█▓█ █▒░░",
+      speed: 100,
+    })
+    .start()
+    .reveal(4000, 1000);
 };
 //
 // MARQUEE
@@ -132,12 +183,17 @@ const footerReveal = () => {
     // markers: true,
   });
 };
+
 window.addEventListener("DOMContentLoaded", () => {
   initLenis();
   parallaxe();
-  // createScrollTrigger();
+  createScrollTrigger();
   cardReveal();
   initMarquees();
+  counter();
+  baffles();
+
   footerReveal();
-  // ScrollTrigger.refresh();
+
+  ScrollTrigger.refresh();
 });

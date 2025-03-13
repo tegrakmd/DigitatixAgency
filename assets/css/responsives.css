@@ -52,7 +52,7 @@
   }
   .hero,
   .about_cover {
-    height: 80dvh;
+    height: 90dvh;
   }
   .footer > h1 a {
     position: absolute;
@@ -88,6 +88,8 @@
     height: fit-content;
     transform: translateX(0);
   }
+  /*  */
+
   /*  */
   .ambassador__image {
     width: 4em;
