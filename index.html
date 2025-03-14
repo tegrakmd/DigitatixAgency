@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="digitatix" />
@@ -82,18 +82,29 @@
               <h1 class="quote">Hey! We are digitatix.</h1>
               <h1 class="quote">Your new creative bf.</h1>
             </div>
-            <p>Votre succès numérique, Notre engagement inébranlable</p>
-            <div class="input_hero">
-              <input type="text" placeholder="digitatix@gmail.com" />
-              <button>Get</button>
-            </div>
+            <p>
+              Boostons votre activité grâce à <br />
+              une stratégie personnalisée qui génère des résultats !
+            </p>
+            <form method="POST">
+              <div class="input_hero">
+                <input
+                  name="mail"
+                  type="text"
+                  placeholder="digitatix@gmail.com"
+                  required />
+                <button>
+                  <a href="./src/contact.html">contact</a>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </section>
       <!-- section_About -->
       <section class="about">
         <div class="about_container ewrapper">
-          <div class="about_title"><h3>About Us</h3></div>
+          <div class="about_title"><h3>A propos de nous</h3></div>
           <div class="about_desc">
             <p letters-fade-in class="text_right about_text">
               Pourquoi choisir DigitatiX ? Parce que nous fondons notre
@@ -108,7 +119,7 @@
 
             <button class="button_primaire">
               <a href="./src/about.html">
-                <h6>Read more</h6>
+                <h6>Voir plus</h6>
               </a>
             </button>
           </div>
@@ -132,44 +143,18 @@
           </div>
         </div>
       </section>
-      <!-- video Section -->
-      <!-- <section class="section section-lg section-home-video no-padding-bottom">
-        <div
-          class="animate__animated"
-          data-animation="animate__fadeInUp"
-          data-animation-speed="150">
-          <div class="section-home-video-wrap">
-            <video
-              id="video"
-              playsinline
-              autoplay
-              loop
-              muted
-              poster="./assets/images/Branding/hipicon_cover_soon_uviz_revision=1500000000036_4_0.webp">
-              <source
-                src="./assets/images/video/home_revision=1500000000036_4_0.webm"
-                type="video/webm" />
-              <source
-                src="./assets/images/video/home_revision=1500000000036_4_0.mp4"
-                type="video/mp4" />
-     
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-      </section>  -->
       <!-- section_Services -->
       <section class="service">
         <div class="service_container swrapper card-reveal">
           <div class="service_left">
             <div class="service_titles">
-              <h3>Our Services</h3>
+              <h3>Nos Services</h3>
               <p class="service_desc">
                 Votre succès numérique, Notre engagement inébranlable
               </p>
             </div>
             <button class="button_primaire">
-              <a href="./src/service.html">All Services</a>
+              <a href="./src/service.html">Tous les services</a>
             </button>
           </div>
           <div class="service_list">
@@ -183,7 +168,7 @@
                         alt="" />
                     </figure>
                     <div class="data_service">
-                      <h3 class="name_service">Brand identity</h3>
+                      <h3 class="name_service">Brand Identity</h3>
                     </div>
                   </div>
                 </a>
@@ -225,7 +210,7 @@
                       <img src="./assets/images/app/phone1.JPG" alt="" />
                     </figure>
                     <div class="data_service">
-                      <h3 class="name_service">Mobile App</h3>
+                      <h3 class="name_service">Influence</h3>
                     </div>
                   </div>
                 </a>
@@ -239,9 +224,9 @@
         <div class="project_container">
           <div class="line"></div>
           <div class="header_project">
-            <h3 class="project_title">Last projects</h3>
+            <h3 class="project_title">Derniers projets</h3>
             <button class="button_secondaire">
-              <a href="./src/work.html">All Projects (7)</a>
+              <a href="./src/work.html">Tous les projets (7)</a>
             </button>
           </div>
           <div class="work_grid">
@@ -315,21 +300,6 @@
         </div>
       </section>
       <!-- section_Contact -->
-      <!-- <section class="contact">
-        <div class="contact_container">
-          <div class="contact_wrapper">
-            <h1>Love what you see</h1>
-            <p>
-              Let's Boost your business with a custom strategy that drivers
-              results!
-            </p>
-          </div>
-          <button class="button_primaire">
-            <a href="./src/contact.html">Get in touch</a>
-          </button>
-        </div>
-      </section> -->
-
       <!--  -->
       <contact-section></contact-section>
     </main>

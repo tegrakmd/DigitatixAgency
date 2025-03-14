@@ -51,7 +51,6 @@
   }
   /*  */
   .input_hero {
-    width: 100%;
     margin-top: 3rem;
     height: 50px;
   }
@@ -61,7 +60,8 @@
   }
   .input_hero input {
     background: none;
-    font-size: 12px;
+    padding-left: 2rem;
+    /* font-size: 12px; */
   }
   /*  */
   .menu-close-btn,

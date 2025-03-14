@@ -14,7 +14,7 @@ class FooterComponent extends HTMLElement {
               <div class="footer_container_item_right_container">
                 <!-- Liens -->
                 <ul>
-                  <li class="header_link_footer">Links</li>
+                  <li class="header_link_footer">Pages</li>
                   <li>
                     <a href="${basePath}" class="link_footer">
                       Home
@@ -37,7 +37,7 @@ class FooterComponent extends HTMLElement {
                   </li>
                   <li>
                     <a href="${basePath}/src/work.html" class="link_footer">
-                      Work
+                      Projet
                       <i class="ph ph-arrow-up-right"></i
                 >
                     </a>
@@ -63,7 +63,7 @@ class FooterComponent extends HTMLElement {
                 </ul>
                 <!-- Social -->
                 <ul>
-                  <li class="header_link_footer">Social</li>
+                  <li class="header_link_footer">Réseaux sociaux</li>
                   <li>
                     <a href="#" class="link_footer">
                       Behance

@@ -107,7 +107,7 @@ class MenuNav extends HTMLElement {
                 <a href="${basePath}/src/service.html">Service<i class="ph ph-arrow-up-right"></i></a>
               </div>
                 <div class="menu-link">
-                <a href="${basePath}/src/work.html">Work<i class="ph ph-arrow-up-right"></i></a>
+                <a href="${basePath}/src/work.html">Projet<i class="ph ph-arrow-up-right"></i></a>
               </div>
               <div class="menu-link">
                 <a href="${basePath}/src/contact.html">Contact<i class="ph ph-arrow-up-right"></i></a>

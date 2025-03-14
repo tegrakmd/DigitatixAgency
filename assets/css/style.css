@@ -169,10 +169,17 @@ img.img_bg {
   color: #fff;
 }
 /*==================*/
+.hero_data.index form {
+  background-color: transparent;
+  width: max-content;
+  width: 100%;
+  place-items: center;
+}
+
 .input_hero {
   margin-top: 3rem;
   overflow: hidden;
-  max-width: 290px;
+  max-width: 300px;
   height: 200px;
   z-index: 1;
   border-radius: 10px;
@@ -193,7 +200,7 @@ img.img_bg {
   height: 50px;
   color: #414141e9;
   font-family: PP Mori;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 .input_hero button {
   background: none;

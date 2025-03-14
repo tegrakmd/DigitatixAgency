@@ -8,14 +8,13 @@ class SectionContact extends HTMLElement {
       <section class="contact">
         <div class="contact_container">
           <div class="contact_wrapper">
-            <h1>Love what you see</h1>
+            <h1>Adore ce que tu vois</h1>
             <p>
-              Let's Boost your business with a custom strategy that drivers
-              results!
+              Boostons votre activité grâce à une stratégie personnalisée qui génère des résultats !
             </p>
           </div>
           <button class="button_primaire">
-            <a href="${basePath}/src/contact.html">Get in touch</a>
+            <a href="${basePath}/src/contact.html">Entrer en contact</a>
           </button>
         </div>
       </section>
