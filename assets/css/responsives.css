@@ -230,6 +230,7 @@
   .input_hero {
     margin-top: 10rem;
     height: 40px;
+    max-width: 259px;
   }
   .input_hero button {
     padding: 8px 15px;
