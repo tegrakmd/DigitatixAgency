@@ -233,11 +233,11 @@ const transTime = () => {
 //   stagger: 0.2,
 //   ease: "power4.out",
 // });
-
+parallaxe();
 window.addEventListener("DOMContentLoaded", () => {
   initLenis();
   transTime();
-  parallaxe();
+
   createScrollTrigger();
   cardReveal();
   initMarquees();
