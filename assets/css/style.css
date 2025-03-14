@@ -139,6 +139,7 @@ figure img {
   transform: none;
   transform-origin: 50% 50% 0px;
   opacity: 1;
+  overflow: hidden;
 }
 .hero_data_desc h1 {
   mix-blend-mode: difference;
@@ -147,6 +148,22 @@ figure img {
   font-weight: 600;
   font-size: 8vw;
   line-height: 1;
+}
+/*  */
+/* vision */
+.hero_data_desc h1.text_hover:hover .letter,
+.letter.play .letter {
+  transform: translateY(-100%);
+}
+.text_hover .letter {
+  display: inline-block;
+  transition: transform 0.6s cubic-bezier(0.76, 0, 0.024, 1);
+}
+.letter:nth-child(1) {
+  transition-delay: 0s;
+}
+.letter:nth-child(2) {
+  transition-delay: 0.03s;
 }
 .img_wrapper {
   position: absolute;
@@ -173,15 +190,14 @@ img.img_bg {
   background-color: transparent;
   width: max-content;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  place-items: center;
 }
 
 .input_hero {
   margin-top: 3rem;
   overflow: hidden;
   max-width: 300px;
+  margin: 0 auto;
   height: 200px;
   z-index: 1;
   border-radius: 10px;

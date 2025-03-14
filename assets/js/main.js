@@ -247,14 +247,11 @@ parallaxe();
 window.addEventListener("DOMContentLoaded", () => {
   initLenis();
   transTime();
-
   createScrollTrigger();
   cardReveal();
   initMarquees();
   counter();
   baffles();
-
   footerReveal();
-
   ScrollTrigger.refresh();
 });
