@@ -81,7 +81,7 @@ p {
 }
 figure,
 figure img {
-  will-change: transform, opacity !;
+  will-change: transform;
 }
 
 /* hero_section */
@@ -107,9 +107,8 @@ figure img {
   overflow: hidden;
   padding: 88px 15px 15px;
   position: relative;
-  will-change: transform;
+  /* will-change: transform; */
 }
-
 .hero_data {
   border-radius: 8px;
   opacity: 1;
@@ -131,7 +130,6 @@ figure img {
   align-items: center;
   justify-content: center;
 }
-
 .hero_data_desc {
   outline: none;
   display: flex;
@@ -143,6 +141,7 @@ figure img {
   opacity: 1;
 }
 .hero_data_desc h1 {
+  mix-blend-mode: difference;
   color: #fff;
   z-index: 3;
   font-weight: 600;
@@ -161,7 +160,52 @@ img.img_bg {
   object-position: center center;
   object-fit: cover;
 }
-
+/*  */
+.hero_data p {
+  mix-blend-mode: difference;
+  font-family: PP Mori;
+  z-index: 1;
+  margin-top: 3rem;
+  color: #fff;
+}
+/*==================*/
+.input_hero {
+  margin-top: 3rem;
+  overflow: hidden;
+  max-width: 300px;
+  height: 200px;
+  z-index: 1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e1e1e1e9;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  padding: 4px;
+  height: fit-content;
+}
+.input_hero input {
+  background: none;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  height: 50px;
+  color: #414141e9;
+  font-family: PP Mori;
+}
+.input_hero button {
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  font-weight: 500;
+  padding: 15px 35px;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: PP Mori;
+}
 /*==================*/
 
 .section {

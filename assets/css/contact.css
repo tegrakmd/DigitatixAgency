@@ -141,3 +141,9 @@ form label {
 button {
   color: #111;
 }
+
+.so_cont {
+  border-end-end-radius: 25px;
+  border-end-start-radius: 25px;
+  padding-bottom: 100px;
+}
