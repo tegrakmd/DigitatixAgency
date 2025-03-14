@@ -196,6 +196,7 @@ const transTime = () => {
   const logoAnim = document.querySelector(".logo");
   const navAnim = document.querySelector(".menu-btn-open");
   const countAnim = document.querySelector(".counter");
+  const inputAnim = document.querySelector(".input_hero");
 
   const tl = gsap.timeline();
 
@@ -221,6 +222,15 @@ const transTime = () => {
         duration: 1.5,
       },
       "<0.5"
+    ) // Démarre 0.2s après le début de l'animation précédente
+    .from(
+      inputAnim,
+      {
+        y: 1000,
+        opacity: 0,
+        duration: 2,
+      },
+      "<1.3"
     ); // Démarre 0.2s après le début de l'animation précédente
 };
 
