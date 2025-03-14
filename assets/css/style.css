@@ -180,6 +180,7 @@ img.img_bg {
   margin-top: 3rem;
   overflow: hidden;
   max-width: 300px;
+  margin: 0 auto;
   height: 200px;
   z-index: 1;
   border-radius: 10px;
