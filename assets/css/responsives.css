@@ -47,11 +47,11 @@
     cursor: block;
   }
   .hero_data_desc h1 {
-    font-size: 13vw;
+    font-size: 14vw;
   }
   /*  */
   .input_hero {
-    margin-top: 3rem;
+    margin-top: 7rem;
     height: 50px;
   }
   .input_hero button {
@@ -227,6 +227,14 @@
   }
 }
 @media (max-width: 468px) {
+  .input_hero {
+    margin-top: 10rem;
+    height: 40px;
+  }
+  .input_hero button {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
   .menu-close-btn,
   .logo-overlay a {
     font-size: 25px;
