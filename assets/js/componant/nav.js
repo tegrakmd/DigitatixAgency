@@ -84,7 +84,7 @@ class MenuNav extends HTMLElement {
               <div class="video">
                 <div class="video-preview">
                   <img
-                    src="${basePath}/assets/images/web/2024_10_31_19_55_IMG_8087.GIF"
+                    src="${basePath}/assets/images/projects/meFW4ACDv3tnJ9teqWpAmeU2XA.webp"
                     class="image"
                     alt="User Image" />
                 </div>
