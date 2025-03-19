@@ -10,6 +10,17 @@ const MARQUEE_REPEAT = -1;
 const FOOTER_Y_PERCENT = -50;
 const FOOTER_END = "+=75%";
 
+const preloadImages = (selector = "img") => {
+  return new Promise((resolve) => {
+    // The imagesLoaded library is used to ensure all images (including backgrounds) are fully loaded.
+    imagesLoaded(
+      document.querySelectorAll(selector),
+      { background: true },
+      resolve
+    );
+  });
+};
+
 const initLenis = () => {
   lenis = new Lenis({
     lerp: 0.05,
@@ -243,9 +254,11 @@ const transTime = () => {
 //   stagger: 0.2,
 //   ease: "power4.out",
 // });
+
 parallaxe();
 window.addEventListener("DOMContentLoaded", () => {
   initLenis();
+  preloadImages();
   transTime();
   createScrollTrigger();
   cardReveal();
