@@ -257,8 +257,8 @@ const transTime = () => {
 
 parallaxe();
 window.addEventListener("DOMContentLoaded", () => {
-  initLenis();
   preloadImages();
+  initLenis();
   transTime();
   createScrollTrigger();
   cardReveal();
