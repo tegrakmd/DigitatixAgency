@@ -64,7 +64,7 @@ const parallaxe = () => {
       image,
       { yPercent: -40 },
       {
-        yPercent: 40,
+        yPercent: 30,
         ease: "none",
         scrollTrigger: {
           trigger: image.closest(".pParent"),
