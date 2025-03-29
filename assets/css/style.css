@@ -384,12 +384,11 @@ img.img_bg {
   gap: 24px;
   justify-content: center;
   overflow: hidden;
-  padding: 88px 15px 15px;
   position: relative;
 }
 .about_cover_data {
   padding: 25px;
-  border-radius: 8px;
+
   opacity: 1;
   align-content: flex-start;
   align-items: center;
