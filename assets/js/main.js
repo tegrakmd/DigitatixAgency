@@ -76,9 +76,7 @@ const parallaxe = () => {
     );
   });
 };
-
 // conter
-
 const counter = () => {
   const counterButton1 = document.querySelector(".counter ");
   const counterButton = document.querySelector(".counter p");
@@ -105,10 +103,8 @@ const counter = () => {
 // Sélectionner toutes les cartes
 const cardReveal = () => {
   const projectCards = document.querySelectorAll(".card-reveal");
-
   // Initialiser les cartes (les cacher)
   gsap.set(projectCards, { y: 100, opacity: 0 });
-
   // Créer une animation pour chaque carte
   projectCards.forEach((card) => {
     gsap.to(card, {
@@ -125,7 +121,6 @@ const cardReveal = () => {
     });
   });
 };
-
 // Baffles
 const baffles = () => {
   let quote = baffle(".quote");
@@ -138,7 +133,6 @@ const baffles = () => {
     .start()
     .reveal(4000, 1000);
 };
-//
 // MARQUEE
 const marquee = (item, time, direction) => {
   const mod = gsap.utils.wrap(0, 50);
@@ -181,7 +175,6 @@ const initMarquees = () => {
     });
   });
 };
-
 // footer
 const footerReveal = () => {
   // FOOTER //
@@ -200,9 +193,7 @@ const footerReveal = () => {
     // markers: true,
   });
 };
-
 // logoAnimation Transition timelin
-
 const transTime = () => {
   const logoAnim = document.querySelector(".logo");
   const navAnim = document.querySelector(".menu-btn-open");
@@ -244,7 +235,6 @@ const transTime = () => {
       "<1.5"
     ); // Démarre 0.2s après le début de l'animation précédente
 };
-
 //
 // gsap.to(".clip-reveal", {
 //   clipPath: "polygon(0 0%, 100% 100%, 100% 100%, 0 100%)",
@@ -254,12 +244,38 @@ const transTime = () => {
 //   stagger: 0.2,
 //   ease: "power4.out",
 // });
+const conteruExp = () => {
+  gsap.utils.toArray(".counterEX").forEach((counter) => {
+    const target = parseInt(counter.dataset.target);
+    gsap.fromTo(
+      counter,
+      { innerText: 0 },
+      {
+        innerText: target,
+        duration: 2.5,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: counter.closest(".expert"),
+          start: "top 90%",
+          toggleActions: "play none none none",
+        },
+        onUpdate: function () {
+          counter.textContent = Math.floor(this.targets()[0].innerText);
+        },
+      }
+    );
+  });
 
+  // ... existing code ...
+
+  // ... existing code ...
+};
 parallaxe();
 window.addEventListener("DOMContentLoaded", () => {
   preloadImages();
   initLenis();
   transTime();
+  conteruExp();
   createScrollTrigger();
   cardReveal();
   initMarquees();
