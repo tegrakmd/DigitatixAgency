@@ -62,7 +62,7 @@ const parallaxe = () => {
   parallaxImages.forEach((image) => {
     gsap.fromTo(
       image,
-      { yPercent: -30 },
+      { yPercent: -40 },
       {
         yPercent: 30,
         ease: "none",
