@@ -103,6 +103,7 @@ section {
 }
 body {
   line-height: 1;
+  min-width: 300px;
 }
 ol,
 ul {

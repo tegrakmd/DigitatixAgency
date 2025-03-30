@@ -8,6 +8,7 @@
   .swrapper_link .service_list ul {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .form-1 {
     width: 400px;
   }
@@ -164,7 +165,7 @@
     padding-bottom: 10px;
   }
   .service_container {
-    padding: 10px 15px;
+    padding: 8em 15px;
   }
 
   .service_list li a figure {
@@ -229,11 +230,13 @@
 @media (max-width: 468px) {
   .input_hero {
     margin-top: 10rem;
-    height: 40px;
-    max-width: 259px;
+    height: 45px;
+    width: 100%;
   }
   .input_hero button {
-    padding: 8px 15px;
+    padding: 12px 15px;
+  }
+  .input_hero button a {
     font-size: 12px;
   }
   .menu-close-btn,

@@ -83,6 +83,11 @@ figure,
 figure img {
   will-change: transform;
 }
+.about_title,
+.project_title,
+.service_titles {
+  text-transform: uppercase;
+}
 
 /* hero_section */
 .hero {
@@ -191,12 +196,12 @@ img.img_bg {
   width: max-content;
   width: 100%;
   place-items: center;
+  margin-top: 4em;
 }
 
 .input_hero {
-  margin-top: 3rem;
   overflow: hidden;
-  max-width: 300px;
+  max-width: 350px;
   margin: 0 auto;
   height: 200px;
   z-index: 1;
@@ -226,11 +231,16 @@ img.img_bg {
   outline: none;
   background-color: rgb(255, 255, 255);
   font-weight: 500;
-  padding: 15px 35px;
+  padding: 15px 25px;
   border-radius: 8px;
-  font-size: 18px;
   cursor: pointer;
   font-family: PP Mori;
+  white-space: nowrap; /* Add this line */
+}
+.input_hero button a {
+  font-size: 1, 3em;
+  display: inline-block;
+  white-space: nowrap; /* Add this line */
 }
 /*==================*/
 
@@ -468,6 +478,9 @@ img.img_bg {
   /* font-size: 3rem; */
   font-family: poppins;
   line-height: 1.5;
+}
+.service_titles p {
+  text-transform: none;
 }
 
 .swrapper {
@@ -717,4 +730,8 @@ section.contact {
 .contact_wrapper p {
   font-family: poppins;
   color: var(--young_black);
+}
+/*  */
+strong {
+  font-weight: 600;
 }

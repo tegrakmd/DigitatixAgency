@@ -230,7 +230,7 @@ const transTime = () => {
       {
         y: 1000,
         opacity: 0,
-        duration: 2,
+        duration: 1,
       },
       "<1.5"
     ); // Démarre 0.2s après le début de l'animation précédente
