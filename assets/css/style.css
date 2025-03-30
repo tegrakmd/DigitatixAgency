@@ -112,7 +112,7 @@ figure img {
   overflow: hidden;
   padding: 88px 15px 15px;
   position: relative;
-  /* will-change: transform; */
+  will-change: transform;
 }
 .hero_data {
   border-radius: 8px;
