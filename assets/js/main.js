@@ -62,15 +62,16 @@ const parallaxe = () => {
   parallaxImages.forEach((image) => {
     gsap.fromTo(
       image,
-      { yPercent: -30 },
+      { yPercent: -20 }, // Réduit l'amplitude du mouvement
       {
-        yPercent: 30,
-        ease: "none",
+        yPercent: 20, // Réduit l'amplitude du mouvement
+        ease: "sine.inOut", // Easing plus doux
         scrollTrigger: {
           trigger: image.closest(".pParent"),
           start: SCROLL_TRIGGER_START,
           end: SCROLL_TRIGGER_END,
-          scrub: true,
+          scrub: 0.5, // Valeur plus faible pour un scrub plus doux
+          markers: false, // Désactive les markers en production
         },
       }
     );

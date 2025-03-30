@@ -42,6 +42,10 @@ section {
   transform-origin: bottom;
   will-change: transform;
 }
+.parallax-image {
+  will-change: transform; /* Optimise les performances */
+  backface-visibility: hidden; /* Évite les artefacts visuels */
+}
 /*  */
 .counter {
   position: fixed;
@@ -395,10 +399,11 @@ img.img_bg {
   justify-content: center;
   overflow: hidden;
   position: relative;
+  padding: 15px;
 }
 .about_cover_data {
   padding: 25px;
-
+  border-radius: 8px;
   opacity: 1;
   align-content: flex-start;
   align-items: center;
@@ -714,7 +719,7 @@ section.contact {
   gap: 24px;
   justify-content: center;
   overflow: hidden;
-  padding: 10px 15px 200px 15px;
+  padding: 80px 15px 200px 15px;
   position: relative;
 }
 
